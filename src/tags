@@ -1,0 +1,49 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.7	//
+BmpInfoHeader	bmp_info_header.cpp	/^BmpInfoHeader::BmpInfoHeader (const BmpInfoHeader &other)$/;"	f	class:BmpInfoHeader	signature:(const BmpInfoHeader &other)
+BmpInfoHeader	bmp_info_header.cpp	/^BmpInfoHeader::BmpInfoHeader (const ifstream &file) $/;"	f	class:BmpInfoHeader	signature:(const ifstream &file)
+BmpInfoHeader	bmp_info_header.h	/^        BmpInfoHeader (const BmpInfoHeader &other);   \/* copy constructor *\/$/;"	p	class:BmpInfoHeader	access:public	signature:(const BmpInfoHeader &other)
+BmpInfoHeader	bmp_info_header.h	/^        BmpInfoHeader (const fstream &file);                             \/* constructor      *\/$/;"	p	class:BmpInfoHeader	access:public	signature:(const fstream &file)
+BmpInfoHeader	bmp_info_header.h	/^class BmpInfoHeader$/;"	c
+BmpInfoHeader::BmpInfoHeader	bmp_info_header.cpp	/^BmpInfoHeader::BmpInfoHeader (const BmpInfoHeader &other)$/;"	f	class:BmpInfoHeader	signature:(const BmpInfoHeader &other)
+BmpInfoHeader::BmpInfoHeader	bmp_info_header.cpp	/^BmpInfoHeader::BmpInfoHeader (const ifstream &file) $/;"	f	class:BmpInfoHeader	signature:(const ifstream &file)
+BmpInfoHeader::BmpInfoHeader	bmp_info_header.h	/^        BmpInfoHeader (const BmpInfoHeader &other);   \/* copy constructor *\/$/;"	p	class:BmpInfoHeader	access:public	signature:(const BmpInfoHeader &other)
+BmpInfoHeader::BmpInfoHeader	bmp_info_header.h	/^        BmpInfoHeader (const fstream &file);                             \/* constructor      *\/$/;"	p	class:BmpInfoHeader	access:public	signature:(const fstream &file)
+BmpInfoHeader::bi_bit_count	bmp_info_header.h	/^        Word bi_bit_count;$/;"	m	class:BmpInfoHeader	access:private
+BmpInfoHeader::bi_clr_important	bmp_info_header.h	/^        Dword bi_clr_important;$/;"	m	class:BmpInfoHeader	access:private
+BmpInfoHeader::bi_clr_used	bmp_info_header.h	/^        Dword bi_clr_used;$/;"	m	class:BmpInfoHeader	access:private
+BmpInfoHeader::bi_compression	bmp_info_header.h	/^        Dword bi_compression;$/;"	m	class:BmpInfoHeader	access:private
+BmpInfoHeader::bi_height	bmp_info_header.h	/^        Long bi_height;$/;"	m	class:BmpInfoHeader	access:private
+BmpInfoHeader::bi_planes	bmp_info_header.h	/^        Word bi_planes;$/;"	m	class:BmpInfoHeader	access:private
+BmpInfoHeader::bi_size	bmp_info_header.h	/^        Dword bi_size;$/;"	m	class:BmpInfoHeader	access:private
+BmpInfoHeader::bi_size_image	bmp_info_header.h	/^        Dword bi_size_image;$/;"	m	class:BmpInfoHeader	access:private
+BmpInfoHeader::bi_width	bmp_info_header.h	/^        Long bi_width;$/;"	m	class:BmpInfoHeader	access:private
+BmpInfoHeader::bi_x_pels_per_meter	bmp_info_header.h	/^        Long bi_x_pels_per_meter;$/;"	m	class:BmpInfoHeader	access:private
+BmpInfoHeader::bi_y_pels_per_meter	bmp_info_header.h	/^        Long bi_y_pels_per_meter;$/;"	m	class:BmpInfoHeader	access:private
+BmpInfoHeader::operator =	bmp_info_header.cpp	/^BmpInfoHeader::operator = (const BmpInfoHeader &other)$/;"	f	class:BmpInfoHeader	signature:(const BmpInfoHeader &other)
+BmpInfoHeader::operator =	bmp_info_header.h	/^        const BmpInfoHeader& operator = (const BmpInfoHeader &other); \/* assignment operator *\/$/;"	p	class:BmpInfoHeader	access:public	signature:(const BmpInfoHeader &other)
+BmpInfoHeader::output	bmp_info_header.cpp	/^BmpInfoHeader::output (void) {$/;"	f	class:BmpInfoHeader	signature:(void)
+BmpInfoHeader::~BmpInfoHeader	bmp_info_header.cpp	/^BmpInfoHeader::~BmpInfoHeader (void)$/;"	f	class:BmpInfoHeader	signature:(void)
+BmpInfoHeader::~BmpInfoHeader	bmp_info_header.h	/^        ~BmpInfoHeader (void);                            \/* destructor       *\/$/;"	p	class:BmpInfoHeader	access:public	signature:(void)
+bi_bit_count	bmp_info_header.h	/^        Word bi_bit_count;$/;"	m	class:BmpInfoHeader	access:private
+bi_clr_important	bmp_info_header.h	/^        Dword bi_clr_important;$/;"	m	class:BmpInfoHeader	access:private
+bi_clr_used	bmp_info_header.h	/^        Dword bi_clr_used;$/;"	m	class:BmpInfoHeader	access:private
+bi_compression	bmp_info_header.h	/^        Dword bi_compression;$/;"	m	class:BmpInfoHeader	access:private
+bi_height	bmp_info_header.h	/^        Long bi_height;$/;"	m	class:BmpInfoHeader	access:private
+bi_planes	bmp_info_header.h	/^        Word bi_planes;$/;"	m	class:BmpInfoHeader	access:private
+bi_size	bmp_info_header.h	/^        Dword bi_size;$/;"	m	class:BmpInfoHeader	access:private
+bi_size_image	bmp_info_header.h	/^        Dword bi_size_image;$/;"	m	class:BmpInfoHeader	access:private
+bi_width	bmp_info_header.h	/^        Long bi_width;$/;"	m	class:BmpInfoHeader	access:private
+bi_x_pels_per_meter	bmp_info_header.h	/^        Long bi_x_pels_per_meter;$/;"	m	class:BmpInfoHeader	access:private
+bi_y_pels_per_meter	bmp_info_header.h	/^        Long bi_y_pels_per_meter;$/;"	m	class:BmpInfoHeader	access:private
+bmp_info_header_INC	bmp_info_header.h	3;"	d
+main	main.cpp	/^main ( int argc, char *argv[] )$/;"	f	signature:( int argc, char *argv[] )
+operator =	bmp_info_header.cpp	/^BmpInfoHeader::operator = (const BmpInfoHeader &other)$/;"	f	class:BmpInfoHeader	signature:(const BmpInfoHeader &other)
+operator =	bmp_info_header.h	/^        const BmpInfoHeader& operator = (const BmpInfoHeader &other); \/* assignment operator *\/$/;"	p	class:BmpInfoHeader	access:public	signature:(const BmpInfoHeader &other)
+output	bmp_info_header.cpp	/^BmpInfoHeader::output (void) {$/;"	f	class:BmpInfoHeader	signature:(void)
+~BmpInfoHeader	bmp_info_header.cpp	/^BmpInfoHeader::~BmpInfoHeader (void)$/;"	f	class:BmpInfoHeader	signature:(void)
+~BmpInfoHeader	bmp_info_header.h	/^        ~BmpInfoHeader (void);                            \/* destructor       *\/$/;"	p	class:BmpInfoHeader	access:public	signature:(void)
