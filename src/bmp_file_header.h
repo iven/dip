@@ -1,11 +1,11 @@
 
+#ifndef  bmp_file_header_INC
+#define  bmp_file_header_INC
+
 #include	<fstream>
 #include	"config.h"
 
 using namespace std;
-
-#ifndef  bmp_file_header_INC
-#define  bmp_file_header_INC
 
 /*
  * =====================================================================================

@@ -1,6 +1,5 @@
 #include	<iostream>  
-#include	"bmp_info_header.h"
-#include	"bmp_file_header.h"
+#include	"bmp_pixmap.h"
 
 using namespace std;
 
@@ -9,14 +8,23 @@ using namespace std;
 //  Description:  main function
 // =====================================================================================
 	int
-main ( int argc, char *argv[] )
+main (int argc, char *argv[])
 {
-    ifstream ifile (DIP_PIXMAPS_DIR "original.bmp", ios::in | ios::binary);
-    BmpFileHeader f_header (ifile);
-    BmpInfoHeader i_header (ifile);
+    ifstream ifile;
+    ofstream ofile;
+    BmpPixmap *pixmap;
+
+    ifile.open (DIP_PIXMAPS_DIR "original.bmp", ios::in | ios::binary);
+    pixmap = new BmpPixmap (ifile);
     ifile.close ();
-    f_header.output ();
-    i_header.output ();
+    
+    pixmap->output ();
+
+    ofile.open (DIP_PIXMAPS_DIR "output.bmp", ios::out | ios::binary);
+    pixmap->write (ofile);
+    ofile.close ();
+
+    delete pixmap;
 
 	return 0;
 }		// ----------  end of function main  ---------- 

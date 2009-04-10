@@ -1,8 +1,23 @@
+/*
+ * =====================================================================================
+ *
+ *       Filename:  bmp_info_header.cpp
+ *
+ *    Description:  BmpInfoHeader class implementation.
+ *
+ *        Version:  1.0
+ *        Created:  2009年04月11日 02时27分08秒
+ *       Revision:  none
+ *       Compiler:  gcc
+ *
+ *         Author:  Xu Lijian (ivenvd), ivenvd@gmail.com
+ *        Company:  CUGB, China
+ *
+ * =====================================================================================
+ */
 
 #include	<iostream>
 #include	"bmp_info_header.h"
-
-using namespace std;
 
 /*
  *--------------------------------------------------------------------------------------
@@ -131,4 +146,54 @@ BmpInfoHeader::write (ofstream &file)
     file.write ((char *) &bi_clr_important, sizeof (Dword));
     return ;
 }		/* -----  end of method BmpInfoHeader::write  ----- */
+
+/*
+ *--------------------------------------------------------------------------------------
+ *       Class:  BmpInfoHeader
+ *      Method:  get_bi_width
+ *--------------------------------------------------------------------------------------
+ */
+    Long
+BmpInfoHeader::get_bi_width (void)
+{
+    return bi_width;
+}		/* -----  end of method BmpInfoHeader::get_bi_width  ----- */
+
+/*
+ *--------------------------------------------------------------------------------------
+ *       Class:  BmpInfoHeader
+ *      Method:  set_bi_width
+ *--------------------------------------------------------------------------------------
+ */
+    void
+BmpInfoHeader::set_bi_width (Long value)
+{
+    bi_width	= value;
+    return ;
+}		/* -----  end of method BmpInfoHeader::set_bi_width  ----- */
+
+/*
+ *--------------------------------------------------------------------------------------
+ *       Class:  BmpInfoHeader
+ *      Method:  get_bi_height
+ *--------------------------------------------------------------------------------------
+ */
+    Long
+BmpInfoHeader::get_bi_height (void)
+{
+    return bi_height;
+}		/* -----  end of method BmpInfoHeader::get_bi_height  ----- */
+
+/*
+ *--------------------------------------------------------------------------------------
+ *       Class:  BmpInfoHeader
+ *      Method:  set_bi_height
+ *--------------------------------------------------------------------------------------
+ */
+    void
+BmpInfoHeader::set_bi_height (Long value)
+{
+    bi_height	= value;
+    return ;
+}		/* -----  end of method BmpInfoHeader::set_bi_height  ----- */
 

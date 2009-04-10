@@ -1,11 +1,11 @@
 
+#ifndef  bmp_info_header_INC
+#define  bmp_info_header_INC
+
 #include	<fstream>
 #include	"config.h"
 
 using namespace std;
-
-#ifndef  bmp_info_header_INC
-#define  bmp_info_header_INC
 
 /*
  * =====================================================================================
@@ -25,6 +25,10 @@ class BmpInfoHeader
         /* ====================  ACCESSORS     ======================================= */
         void output (void);
         void write (ofstream &file);
+        Long get_bi_width (void);
+        Long get_bi_height (void);
+        void set_bi_width (Long value);
+        void set_bi_height (Long value);
 
         /* ====================  MUTATORS      ======================================= */
 

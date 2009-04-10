@@ -1,8 +1,23 @@
+/*
+ * =====================================================================================
+ *
+ *       Filename:  bmp_file_header.cpp
+ *
+ *    Description:  BmpFileHeader class implementation.
+ *
+ *        Version:  1.0
+ *        Created:  2009年04月11日 02时27分08秒
+ *       Revision:  none
+ *       Compiler:  gcc
+ *
+ *         Author:  Xu Lijian (ivenvd), ivenvd@gmail.com
+ *        Company:  CUGB, China
+ *
+ * =====================================================================================
+ */
 
 #include	<iostream>
 #include	"bmp_file_header.h"
-
-using namespace std;
 
 /*
  *--------------------------------------------------------------------------------------
