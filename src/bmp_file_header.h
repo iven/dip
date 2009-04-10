@@ -24,6 +24,7 @@ class BmpFileHeader
 
         /* ====================  ACCESSORS     ======================================= */
         void output (void);
+        void write (ofstream &file);
 
         /* ====================  MUTATORS      ======================================= */
 

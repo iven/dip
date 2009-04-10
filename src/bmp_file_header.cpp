@@ -84,3 +84,21 @@ BmpFileHeader::output (void) {
     return ;
 }		/* -----  end of method BmpFileHeader::output  ----- */
 
+/*
+ *--------------------------------------------------------------------------------------
+ *       Class:  BmpFileHeader
+ *      Method:  write
+ * Description:  Write data members to file.
+ *--------------------------------------------------------------------------------------
+ */
+    void
+BmpFileHeader::write (ofstream &file)
+{
+    file.write ((char *) &bf_type, sizeof (Word));
+    file.write ((char *) &bf_size, sizeof (Dword));
+    file.write ((char *) &bf_reserved1, sizeof (Word));
+    file.write ((char *) &bf_reserved2, sizeof (Word));
+    file.write ((char *) &bf_off_bits, sizeof (Dword));
+    return ;
+}		/* -----  end of method BmpFileHeader::write  ----- */
+

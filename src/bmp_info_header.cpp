@@ -108,3 +108,27 @@ BmpInfoHeader::output (void) {
     return ;
 }		/* -----  end of method BmpInfoHeader::output  ----- */
 
+/*
+ *--------------------------------------------------------------------------------------
+ *       Class:  BmpInfoHeader
+ *      Method:  write
+ * Description:  Write data members to file.
+ *--------------------------------------------------------------------------------------
+ */
+    void
+BmpInfoHeader::write (ofstream &file)
+{
+    file.write ((char *) &bi_size, sizeof (Dword));
+    file.write ((char *) &bi_width, sizeof (Long));
+    file.write ((char *) &bi_height, sizeof (Long));
+    file.write ((char *) &bi_planes, sizeof (Word));
+    file.write ((char *) &bi_bit_count, sizeof (Word));
+    file.write ((char *) &bi_compression, sizeof (Dword));
+    file.write ((char *) &bi_size_image, sizeof (Dword));
+    file.write ((char *) &bi_x_pels_per_meter, sizeof (Long));
+    file.write ((char *) &bi_y_pels_per_meter, sizeof (Long));
+    file.write ((char *) &bi_clr_used, sizeof (Dword));
+    file.write ((char *) &bi_clr_important, sizeof (Dword));
+    return ;
+}		/* -----  end of method BmpInfoHeader::write  ----- */
+
