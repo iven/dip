@@ -4,187 +4,258 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.7	//
-BmpFileHeader	bmp_file_header.cpp	/^BmpFileHeader::BmpFileHeader (const BmpFileHeader &other)$/;"	f	class:BmpFileHeader	signature:(const BmpFileHeader &other)
-BmpFileHeader	bmp_file_header.cpp	/^BmpFileHeader::BmpFileHeader (ifstream &file)$/;"	f	class:BmpFileHeader	signature:(ifstream &file)
-BmpFileHeader	bmp_file_header.h	/^        BmpFileHeader (const BmpFileHeader &other);   \/* copy constructor *\/$/;"	p	class:BmpFileHeader	access:public	signature:(const BmpFileHeader &other)
-BmpFileHeader	bmp_file_header.h	/^        BmpFileHeader (ifstream &file);                             \/* constructor      *\/$/;"	p	class:BmpFileHeader	access:public	signature:(ifstream &file)
-BmpFileHeader	bmp_file_header.h	/^class BmpFileHeader$/;"	c
-BmpFileHeader::BmpFileHeader	bmp_file_header.cpp	/^BmpFileHeader::BmpFileHeader (const BmpFileHeader &other)$/;"	f	class:BmpFileHeader	signature:(const BmpFileHeader &other)
-BmpFileHeader::BmpFileHeader	bmp_file_header.cpp	/^BmpFileHeader::BmpFileHeader (ifstream &file)$/;"	f	class:BmpFileHeader	signature:(ifstream &file)
-BmpFileHeader::BmpFileHeader	bmp_file_header.h	/^        BmpFileHeader (const BmpFileHeader &other);   \/* copy constructor *\/$/;"	p	class:BmpFileHeader	access:public	signature:(const BmpFileHeader &other)
-BmpFileHeader::BmpFileHeader	bmp_file_header.h	/^        BmpFileHeader (ifstream &file);                             \/* constructor      *\/$/;"	p	class:BmpFileHeader	access:public	signature:(ifstream &file)
-BmpFileHeader::bf_off_bits	bmp_file_header.h	/^        Dword bf_off_bits;$/;"	m	class:BmpFileHeader	access:private
-BmpFileHeader::bf_reserved1	bmp_file_header.h	/^        Word bf_reserved1;$/;"	m	class:BmpFileHeader	access:private
-BmpFileHeader::bf_reserved2	bmp_file_header.h	/^        Word bf_reserved2;$/;"	m	class:BmpFileHeader	access:private
-BmpFileHeader::bf_size	bmp_file_header.h	/^        Dword bf_size;$/;"	m	class:BmpFileHeader	access:private
-BmpFileHeader::bf_type	bmp_file_header.h	/^        Word bf_type;$/;"	m	class:BmpFileHeader	access:private
-BmpFileHeader::operator =	bmp_file_header.cpp	/^BmpFileHeader::operator = (const BmpFileHeader &other)$/;"	f	class:BmpFileHeader	signature:(const BmpFileHeader &other)
-BmpFileHeader::operator =	bmp_file_header.h	/^        const BmpFileHeader& operator = (const BmpFileHeader &other); \/* assignment operator *\/$/;"	p	class:BmpFileHeader	access:public	signature:(const BmpFileHeader &other)
-BmpFileHeader::output	bmp_file_header.cpp	/^BmpFileHeader::output (void) {$/;"	f	class:BmpFileHeader	signature:(void)
-BmpFileHeader::output	bmp_file_header.h	/^        void output (void);$/;"	p	class:BmpFileHeader	access:public	signature:(void)
-BmpFileHeader::write	bmp_file_header.cpp	/^BmpFileHeader::write (ofstream &file)$/;"	f	class:BmpFileHeader	signature:(ofstream &file)
-BmpFileHeader::write	bmp_file_header.h	/^        void write (ofstream &file);$/;"	p	class:BmpFileHeader	access:public	signature:(ofstream &file)
-BmpFileHeader::~BmpFileHeader	bmp_file_header.cpp	/^BmpFileHeader::~BmpFileHeader (void)$/;"	f	class:BmpFileHeader	signature:(void)
-BmpFileHeader::~BmpFileHeader	bmp_file_header.h	/^        ~BmpFileHeader (void);                            \/* destructor       *\/$/;"	p	class:BmpFileHeader	access:public	signature:(void)
-BmpInfoHeader	bmp_info_header.cpp	/^BmpInfoHeader::BmpInfoHeader (const BmpInfoHeader &other)$/;"	f	class:BmpInfoHeader	signature:(const BmpInfoHeader &other)
-BmpInfoHeader	bmp_info_header.cpp	/^BmpInfoHeader::BmpInfoHeader (ifstream &file) $/;"	f	class:BmpInfoHeader	signature:(ifstream &file)
-BmpInfoHeader	bmp_info_header.h	/^        BmpInfoHeader (const BmpInfoHeader &other);   \/* copy constructor *\/$/;"	p	class:BmpInfoHeader	access:public	signature:(const BmpInfoHeader &other)
-BmpInfoHeader	bmp_info_header.h	/^        BmpInfoHeader (ifstream &file);                             \/* constructor      *\/$/;"	p	class:BmpInfoHeader	access:public	signature:(ifstream &file)
-BmpInfoHeader	bmp_info_header.h	/^class BmpInfoHeader$/;"	c
-BmpInfoHeader::BmpInfoHeader	bmp_info_header.cpp	/^BmpInfoHeader::BmpInfoHeader (const BmpInfoHeader &other)$/;"	f	class:BmpInfoHeader	signature:(const BmpInfoHeader &other)
-BmpInfoHeader::BmpInfoHeader	bmp_info_header.cpp	/^BmpInfoHeader::BmpInfoHeader (ifstream &file) $/;"	f	class:BmpInfoHeader	signature:(ifstream &file)
-BmpInfoHeader::BmpInfoHeader	bmp_info_header.h	/^        BmpInfoHeader (const BmpInfoHeader &other);   \/* copy constructor *\/$/;"	p	class:BmpInfoHeader	access:public	signature:(const BmpInfoHeader &other)
-BmpInfoHeader::BmpInfoHeader	bmp_info_header.h	/^        BmpInfoHeader (ifstream &file);                             \/* constructor      *\/$/;"	p	class:BmpInfoHeader	access:public	signature:(ifstream &file)
-BmpInfoHeader::bi_bit_count	bmp_info_header.h	/^        Word bi_bit_count;$/;"	m	class:BmpInfoHeader	access:private
-BmpInfoHeader::bi_clr_important	bmp_info_header.h	/^        Dword bi_clr_important;$/;"	m	class:BmpInfoHeader	access:private
-BmpInfoHeader::bi_clr_used	bmp_info_header.h	/^        Dword bi_clr_used;$/;"	m	class:BmpInfoHeader	access:private
-BmpInfoHeader::bi_compression	bmp_info_header.h	/^        Dword bi_compression;$/;"	m	class:BmpInfoHeader	access:private
-BmpInfoHeader::bi_height	bmp_info_header.h	/^        Long bi_height;$/;"	m	class:BmpInfoHeader	access:private
-BmpInfoHeader::bi_planes	bmp_info_header.h	/^        Word bi_planes;$/;"	m	class:BmpInfoHeader	access:private
-BmpInfoHeader::bi_size	bmp_info_header.h	/^        Dword bi_size;$/;"	m	class:BmpInfoHeader	access:private
-BmpInfoHeader::bi_size_image	bmp_info_header.h	/^        Dword bi_size_image;$/;"	m	class:BmpInfoHeader	access:private
-BmpInfoHeader::bi_width	bmp_info_header.h	/^        Long bi_width;$/;"	m	class:BmpInfoHeader	access:private
-BmpInfoHeader::bi_x_pels_per_meter	bmp_info_header.h	/^        Long bi_x_pels_per_meter;$/;"	m	class:BmpInfoHeader	access:private
-BmpInfoHeader::bi_y_pels_per_meter	bmp_info_header.h	/^        Long bi_y_pels_per_meter;$/;"	m	class:BmpInfoHeader	access:private
-BmpInfoHeader::create_data	bmp_pixmap.cpp	/^BmpInfoHeader::create_data (BmpPixel **p)$/;"	f	class:BmpInfoHeader	signature:(BmpPixel **p)
-BmpInfoHeader::create_data	bmp_pixmap.cpp	/^BmpInfoHeader::create_data (ifstream &file)$/;"	f	class:BmpInfoHeader	signature:(ifstream &file)
-BmpInfoHeader::destroy	bmp_pixmap.cpp	/^BmpInfoHeader::destroy (void)$/;"	f	class:BmpInfoHeader	signature:(void)
-BmpInfoHeader::get_bi_height	bmp_info_header.cpp	/^BmpInfoHeader::get_bi_height (void)$/;"	f	class:BmpInfoHeader	signature:(void)
-BmpInfoHeader::get_bi_height	bmp_info_header.h	/^        Long get_bi_height (void);$/;"	p	class:BmpInfoHeader	access:public	signature:(void)
-BmpInfoHeader::get_bi_width	bmp_info_header.cpp	/^BmpInfoHeader::get_bi_width (void)$/;"	f	class:BmpInfoHeader	signature:(void)
-BmpInfoHeader::get_bi_width	bmp_info_header.h	/^        Long get_bi_width (void);$/;"	p	class:BmpInfoHeader	access:public	signature:(void)
-BmpInfoHeader::operator =	bmp_info_header.cpp	/^BmpInfoHeader::operator = (const BmpInfoHeader &other)$/;"	f	class:BmpInfoHeader	signature:(const BmpInfoHeader &other)
-BmpInfoHeader::operator =	bmp_info_header.h	/^        const BmpInfoHeader& operator = (const BmpInfoHeader &other); \/* assignment operator *\/$/;"	p	class:BmpInfoHeader	access:public	signature:(const BmpInfoHeader &other)
-BmpInfoHeader::output	bmp_info_header.cpp	/^BmpInfoHeader::output (void) {$/;"	f	class:BmpInfoHeader	signature:(void)
-BmpInfoHeader::output	bmp_info_header.h	/^        void output (void);$/;"	p	class:BmpInfoHeader	access:public	signature:(void)
-BmpInfoHeader::set_bi_height	bmp_info_header.cpp	/^BmpInfoHeader::set_bi_height (Long value)$/;"	f	class:BmpInfoHeader	signature:(Long value)
-BmpInfoHeader::set_bi_height	bmp_info_header.h	/^        void set_bi_height (Long value);$/;"	p	class:BmpInfoHeader	access:public	signature:(Long value)
-BmpInfoHeader::set_bi_width	bmp_info_header.cpp	/^BmpInfoHeader::set_bi_width (Long value)$/;"	f	class:BmpInfoHeader	signature:(Long value)
-BmpInfoHeader::set_bi_width	bmp_info_header.h	/^        void set_bi_width (Long value);$/;"	p	class:BmpInfoHeader	access:public	signature:(Long value)
-BmpInfoHeader::write	bmp_info_header.cpp	/^BmpInfoHeader::write (ofstream &file)$/;"	f	class:BmpInfoHeader	signature:(ofstream &file)
-BmpInfoHeader::write	bmp_info_header.h	/^        void write (ofstream &file);$/;"	p	class:BmpInfoHeader	access:public	signature:(ofstream &file)
-BmpInfoHeader::~BmpInfoHeader	bmp_info_header.cpp	/^BmpInfoHeader::~BmpInfoHeader (void)$/;"	f	class:BmpInfoHeader	signature:(void)
-BmpInfoHeader::~BmpInfoHeader	bmp_info_header.h	/^        ~BmpInfoHeader (void);                            \/* destructor       *\/$/;"	p	class:BmpInfoHeader	access:public	signature:(void)
-BmpPixel	bmp_pixel.cpp	/^BmpPixel::BmpPixel (Byte b, Byte g, Byte r) : blue (b), green (g), red (r)$/;"	f	class:BmpPixel	signature:(Byte b, Byte g, Byte r)
-BmpPixel	bmp_pixel.cpp	/^BmpPixel::BmpPixel (const BmpPixel &other)$/;"	f	class:BmpPixel	signature:(const BmpPixel &other)
-BmpPixel	bmp_pixel.cpp	/^BmpPixel::BmpPixel (ifstream &file)$/;"	f	class:BmpPixel	signature:(ifstream &file)
-BmpPixel	bmp_pixel.h	/^        BmpPixel (Byte b,Byte g,Byte r);                             \/* constructor      *\/$/;"	p	class:BmpPixel	access:public	signature:(Byte b,Byte g,Byte r)
-BmpPixel	bmp_pixel.h	/^        BmpPixel (const BmpPixel &other);   \/* copy constructor *\/$/;"	p	class:BmpPixel	access:public	signature:(const BmpPixel &other)
-BmpPixel	bmp_pixel.h	/^        BmpPixel (ifstream &file);                             \/* constructor      *\/$/;"	p	class:BmpPixel	access:public	signature:(ifstream &file)
-BmpPixel	bmp_pixel.h	/^class BmpPixel$/;"	c
-BmpPixel::BmpPixel	bmp_pixel.cpp	/^BmpPixel::BmpPixel (Byte b, Byte g, Byte r) : blue (b), green (g), red (r)$/;"	f	class:BmpPixel	signature:(Byte b, Byte g, Byte r)
-BmpPixel::BmpPixel	bmp_pixel.cpp	/^BmpPixel::BmpPixel (const BmpPixel &other)$/;"	f	class:BmpPixel	signature:(const BmpPixel &other)
-BmpPixel::BmpPixel	bmp_pixel.cpp	/^BmpPixel::BmpPixel (ifstream &file)$/;"	f	class:BmpPixel	signature:(ifstream &file)
-BmpPixel::BmpPixel	bmp_pixel.h	/^        BmpPixel (Byte b,Byte g,Byte r);                             \/* constructor      *\/$/;"	p	class:BmpPixel	access:public	signature:(Byte b,Byte g,Byte r)
-BmpPixel::BmpPixel	bmp_pixel.h	/^        BmpPixel (const BmpPixel &other);   \/* copy constructor *\/$/;"	p	class:BmpPixel	access:public	signature:(const BmpPixel &other)
-BmpPixel::BmpPixel	bmp_pixel.h	/^        BmpPixel (ifstream &file);                             \/* constructor      *\/$/;"	p	class:BmpPixel	access:public	signature:(ifstream &file)
-BmpPixel::blue	bmp_pixel.h	/^        Byte blue, green, red;$/;"	m	class:BmpPixel	access:private
-BmpPixel::green	bmp_pixel.h	/^        Byte blue, green, red;$/;"	m	class:BmpPixel	access:private
-BmpPixel::operator =	bmp_pixel.cpp	/^BmpPixel::operator = (const BmpPixel &other)$/;"	f	class:BmpPixel	signature:(const BmpPixel &other)
-BmpPixel::operator =	bmp_pixel.h	/^        const BmpPixel& operator = (const BmpPixel &other); \/* assignment operator *\/$/;"	p	class:BmpPixel	access:public	signature:(const BmpPixel &other)
-BmpPixel::output	bmp_pixel.cpp	/^BmpPixel::output (void)$/;"	f	class:BmpPixel	signature:(void)
-BmpPixel::output	bmp_pixel.h	/^        void output (void);$/;"	p	class:BmpPixel	access:public	signature:(void)
-BmpPixel::red	bmp_pixel.h	/^        Byte blue, green, red;$/;"	m	class:BmpPixel	access:private
-BmpPixel::write	bmp_pixel.cpp	/^BmpPixel::write (ofstream &file)$/;"	f	class:BmpPixel	signature:(ofstream &file)
-BmpPixel::write	bmp_pixel.h	/^        void write (ofstream &file);$/;"	p	class:BmpPixel	access:public	signature:(ofstream &file)
-BmpPixel::~BmpPixel	bmp_pixel.cpp	/^BmpPixel::~BmpPixel (void)$/;"	f	class:BmpPixel	signature:(void)
-BmpPixel::~BmpPixel	bmp_pixel.h	/^        ~BmpPixel (void);                            \/* destructor       *\/$/;"	p	class:BmpPixel	access:public	signature:(void)
-BmpPixmap	bmp_pixmap.cpp	/^BmpPixmap::BmpPixmap (const BmpPixmap &other)$/;"	f	class:BmpPixmap	signature:(const BmpPixmap &other)
-BmpPixmap	bmp_pixmap.cpp	/^BmpPixmap::BmpPixmap (ifstream &file)$/;"	f	class:BmpPixmap	signature:(ifstream &file)
-BmpPixmap	bmp_pixmap.h	/^        BmpPixmap (const BmpPixmap &other);   \/* copy constructor *\/$/;"	p	class:BmpPixmap	access:public	signature:(const BmpPixmap &other)
-BmpPixmap	bmp_pixmap.h	/^        BmpPixmap (ifstream &file);                             \/* constructor      *\/$/;"	p	class:BmpPixmap	access:public	signature:(ifstream &file)
-BmpPixmap	bmp_pixmap.h	/^class BmpPixmap$/;"	c
-BmpPixmap::BmpPixmap	bmp_pixmap.cpp	/^BmpPixmap::BmpPixmap (const BmpPixmap &other)$/;"	f	class:BmpPixmap	signature:(const BmpPixmap &other)
-BmpPixmap::BmpPixmap	bmp_pixmap.cpp	/^BmpPixmap::BmpPixmap (ifstream &file)$/;"	f	class:BmpPixmap	signature:(ifstream &file)
-BmpPixmap::BmpPixmap	bmp_pixmap.h	/^        BmpPixmap (const BmpPixmap &other);   \/* copy constructor *\/$/;"	p	class:BmpPixmap	access:public	signature:(const BmpPixmap &other)
-BmpPixmap::BmpPixmap	bmp_pixmap.h	/^        BmpPixmap (ifstream &file);                             \/* constructor      *\/$/;"	p	class:BmpPixmap	access:public	signature:(ifstream &file)
-BmpPixmap::fheader	bmp_pixmap.h	/^        BmpFileHeader *fheader;$/;"	m	class:BmpPixmap	access:private
-BmpPixmap::get_fheader	bmp_pixmap.cpp	/^BmpPixmap::get_fheader (void)$/;"	f	class:BmpPixmap	signature:(void)
-BmpPixmap::get_fheader	bmp_pixmap.h	/^        BmpFileHeader &get_fheader (void);$/;"	p	class:BmpPixmap	access:public	signature:(void)
-BmpPixmap::get_iheader	bmp_pixmap.cpp	/^BmpPixmap::get_iheader (void)$/;"	f	class:BmpPixmap	signature:(void)
-BmpPixmap::get_iheader	bmp_pixmap.h	/^        BmpInfoHeader &get_iheader (void);$/;"	p	class:BmpPixmap	access:public	signature:(void)
-BmpPixmap::iheader	bmp_pixmap.h	/^        BmpInfoHeader *iheader;$/;"	m	class:BmpPixmap	access:private
-BmpPixmap::operator =	bmp_pixmap.cpp	/^BmpPixmap::operator = (const BmpPixmap &other)$/;"	f	class:BmpPixmap	signature:(const BmpPixmap &other)
-BmpPixmap::operator =	bmp_pixmap.h	/^        const BmpPixmap& operator = (const BmpPixmap &other); \/* assignment operator *\/$/;"	p	class:BmpPixmap	access:public	signature:(const BmpPixmap &other)
-BmpPixmap::pdata	bmp_pixmap.h	/^        BmpPixel **pdata;$/;"	m	class:BmpPixmap	access:private
-BmpPixmap::~BmpPixmap	bmp_pixmap.cpp	/^BmpPixmap::~BmpPixmap (void)$/;"	f	class:BmpPixmap	signature:(void)
-BmpPixmap::~BmpPixmap	bmp_pixmap.h	/^        ~BmpPixmap (void);                            \/* destructor       *\/$/;"	p	class:BmpPixmap	access:public	signature:(void)
-Byte	config.h	/^    typedef unsigned char Byte;$/;"	t
-DIP_PIXMAPS_DIR	config.h	17;"	d
-Dword	config.h	/^    typedef unsigned int Dword;$/;"	t
-Dword	config.h	/^    typedef unsigned long Dword;$/;"	t
-Long	config.h	/^    typedef int Long;$/;"	t
-Long	config.h	/^    typedef long Long;$/;"	t
-Word	config.h	/^    typedef unsigned int Word;$/;"	t
-Word	config.h	/^    typedef unsigned short Word;$/;"	t
-bf_off_bits	bmp_file_header.h	/^        Dword bf_off_bits;$/;"	m	class:BmpFileHeader	access:private
-bf_reserved1	bmp_file_header.h	/^        Word bf_reserved1;$/;"	m	class:BmpFileHeader	access:private
-bf_reserved2	bmp_file_header.h	/^        Word bf_reserved2;$/;"	m	class:BmpFileHeader	access:private
-bf_size	bmp_file_header.h	/^        Dword bf_size;$/;"	m	class:BmpFileHeader	access:private
-bf_type	bmp_file_header.h	/^        Word bf_type;$/;"	m	class:BmpFileHeader	access:private
-bi_bit_count	bmp_info_header.h	/^        Word bi_bit_count;$/;"	m	class:BmpInfoHeader	access:private
-bi_clr_important	bmp_info_header.h	/^        Dword bi_clr_important;$/;"	m	class:BmpInfoHeader	access:private
-bi_clr_used	bmp_info_header.h	/^        Dword bi_clr_used;$/;"	m	class:BmpInfoHeader	access:private
-bi_compression	bmp_info_header.h	/^        Dword bi_compression;$/;"	m	class:BmpInfoHeader	access:private
-bi_height	bmp_info_header.h	/^        Long bi_height;$/;"	m	class:BmpInfoHeader	access:private
-bi_planes	bmp_info_header.h	/^        Word bi_planes;$/;"	m	class:BmpInfoHeader	access:private
-bi_size	bmp_info_header.h	/^        Dword bi_size;$/;"	m	class:BmpInfoHeader	access:private
-bi_size_image	bmp_info_header.h	/^        Dword bi_size_image;$/;"	m	class:BmpInfoHeader	access:private
-bi_width	bmp_info_header.h	/^        Long bi_width;$/;"	m	class:BmpInfoHeader	access:private
-bi_x_pels_per_meter	bmp_info_header.h	/^        Long bi_x_pels_per_meter;$/;"	m	class:BmpInfoHeader	access:private
-bi_y_pels_per_meter	bmp_info_header.h	/^        Long bi_y_pels_per_meter;$/;"	m	class:BmpInfoHeader	access:private
-blue	bmp_pixel.h	/^        Byte blue, green, red;$/;"	m	class:BmpPixel	access:private
-bmp_file_header_INC	bmp_file_header.h	3;"	d
-bmp_info_header_INC	bmp_info_header.h	3;"	d
-bmp_pixel_INC	bmp_pixel.h	3;"	d
-bmp_pixmap_INC	bmp_pixmap.h	3;"	d
+BmpFileHeader	bmp_pixmap/bmp_file_header.cpp	/^BmpFileHeader::BmpFileHeader (const BmpFileHeader &other)$/;"	f	class:BmpFileHeader	signature:(const BmpFileHeader &other)
+BmpFileHeader	bmp_pixmap/bmp_file_header.cpp	/^BmpFileHeader::BmpFileHeader (ifstream &file)$/;"	f	class:BmpFileHeader	signature:(ifstream &file)
+BmpFileHeader	bmp_pixmap/bmp_file_header.h	/^        BmpFileHeader (const BmpFileHeader &other);   \/* copy constructor *\/$/;"	p	class:BmpFileHeader	access:public	signature:(const BmpFileHeader &other)
+BmpFileHeader	bmp_pixmap/bmp_file_header.h	/^        BmpFileHeader (ifstream &file);                             \/* constructor      *\/$/;"	p	class:BmpFileHeader	access:public	signature:(ifstream &file)
+BmpFileHeader	bmp_pixmap/bmp_file_header.h	/^class BmpFileHeader$/;"	c
+BmpFileHeader::BmpFileHeader	bmp_pixmap/bmp_file_header.cpp	/^BmpFileHeader::BmpFileHeader (const BmpFileHeader &other)$/;"	f	class:BmpFileHeader	signature:(const BmpFileHeader &other)
+BmpFileHeader::BmpFileHeader	bmp_pixmap/bmp_file_header.cpp	/^BmpFileHeader::BmpFileHeader (ifstream &file)$/;"	f	class:BmpFileHeader	signature:(ifstream &file)
+BmpFileHeader::BmpFileHeader	bmp_pixmap/bmp_file_header.h	/^        BmpFileHeader (const BmpFileHeader &other);   \/* copy constructor *\/$/;"	p	class:BmpFileHeader	access:public	signature:(const BmpFileHeader &other)
+BmpFileHeader::BmpFileHeader	bmp_pixmap/bmp_file_header.h	/^        BmpFileHeader (ifstream &file);                             \/* constructor      *\/$/;"	p	class:BmpFileHeader	access:public	signature:(ifstream &file)
+BmpFileHeader::bf_off_bits	bmp_pixmap/bmp_file_header.h	/^        Dword bf_off_bits;$/;"	m	class:BmpFileHeader	access:private
+BmpFileHeader::bf_reserved1	bmp_pixmap/bmp_file_header.h	/^        Word bf_reserved1;$/;"	m	class:BmpFileHeader	access:private
+BmpFileHeader::bf_reserved2	bmp_pixmap/bmp_file_header.h	/^        Word bf_reserved2;$/;"	m	class:BmpFileHeader	access:private
+BmpFileHeader::bf_size	bmp_pixmap/bmp_file_header.h	/^        Dword bf_size;$/;"	m	class:BmpFileHeader	access:private
+BmpFileHeader::bf_type	bmp_pixmap/bmp_file_header.h	/^        Word bf_type;$/;"	m	class:BmpFileHeader	access:private
+BmpFileHeader::operator =	bmp_pixmap/bmp_file_header.cpp	/^BmpFileHeader::operator = (const BmpFileHeader &other)$/;"	f	class:BmpFileHeader	signature:(const BmpFileHeader &other)
+BmpFileHeader::operator =	bmp_pixmap/bmp_file_header.h	/^        const BmpFileHeader& operator = (const BmpFileHeader &other); \/* assignment operator *\/$/;"	p	class:BmpFileHeader	access:public	signature:(const BmpFileHeader &other)
+BmpFileHeader::output	bmp_pixmap/bmp_file_header.cpp	/^BmpFileHeader::output (void) {$/;"	f	class:BmpFileHeader	signature:(void)
+BmpFileHeader::output	bmp_pixmap/bmp_file_header.h	/^        void output (void);$/;"	p	class:BmpFileHeader	access:public	signature:(void)
+BmpFileHeader::write	bmp_pixmap/bmp_file_header.cpp	/^BmpFileHeader::write (ofstream &file)$/;"	f	class:BmpFileHeader	signature:(ofstream &file)
+BmpFileHeader::write	bmp_pixmap/bmp_file_header.h	/^        void write (ofstream &file);$/;"	p	class:BmpFileHeader	access:public	signature:(ofstream &file)
+BmpFileHeader::~BmpFileHeader	bmp_pixmap/bmp_file_header.cpp	/^BmpFileHeader::~BmpFileHeader (void)$/;"	f	class:BmpFileHeader	signature:(void)
+BmpFileHeader::~BmpFileHeader	bmp_pixmap/bmp_file_header.h	/^        ~BmpFileHeader (void);                            \/* destructor       *\/$/;"	p	class:BmpFileHeader	access:public	signature:(void)
+BmpInfoHeader	bmp_pixmap/bmp_info_header.cpp	/^BmpInfoHeader::BmpInfoHeader (const BmpInfoHeader &other)$/;"	f	class:BmpInfoHeader	signature:(const BmpInfoHeader &other)
+BmpInfoHeader	bmp_pixmap/bmp_info_header.cpp	/^BmpInfoHeader::BmpInfoHeader (ifstream &file) $/;"	f	class:BmpInfoHeader	signature:(ifstream &file)
+BmpInfoHeader	bmp_pixmap/bmp_info_header.h	/^        BmpInfoHeader (const BmpInfoHeader &other);   \/* copy constructor *\/$/;"	p	class:BmpInfoHeader	access:public	signature:(const BmpInfoHeader &other)
+BmpInfoHeader	bmp_pixmap/bmp_info_header.h	/^        BmpInfoHeader (ifstream &file);                             \/* constructor      *\/$/;"	p	class:BmpInfoHeader	access:public	signature:(ifstream &file)
+BmpInfoHeader	bmp_pixmap/bmp_info_header.h	/^class BmpInfoHeader$/;"	c
+BmpInfoHeader::BmpInfoHeader	bmp_pixmap/bmp_info_header.cpp	/^BmpInfoHeader::BmpInfoHeader (const BmpInfoHeader &other)$/;"	f	class:BmpInfoHeader	signature:(const BmpInfoHeader &other)
+BmpInfoHeader::BmpInfoHeader	bmp_pixmap/bmp_info_header.cpp	/^BmpInfoHeader::BmpInfoHeader (ifstream &file) $/;"	f	class:BmpInfoHeader	signature:(ifstream &file)
+BmpInfoHeader::BmpInfoHeader	bmp_pixmap/bmp_info_header.h	/^        BmpInfoHeader (const BmpInfoHeader &other);   \/* copy constructor *\/$/;"	p	class:BmpInfoHeader	access:public	signature:(const BmpInfoHeader &other)
+BmpInfoHeader::BmpInfoHeader	bmp_pixmap/bmp_info_header.h	/^        BmpInfoHeader (ifstream &file);                             \/* constructor      *\/$/;"	p	class:BmpInfoHeader	access:public	signature:(ifstream &file)
+BmpInfoHeader::bi_bit_count	bmp_pixmap/bmp_info_header.h	/^        Word bi_bit_count;$/;"	m	class:BmpInfoHeader	access:private
+BmpInfoHeader::bi_clr_important	bmp_pixmap/bmp_info_header.h	/^        Dword bi_clr_important;$/;"	m	class:BmpInfoHeader	access:private
+BmpInfoHeader::bi_clr_used	bmp_pixmap/bmp_info_header.h	/^        Dword bi_clr_used;$/;"	m	class:BmpInfoHeader	access:private
+BmpInfoHeader::bi_compression	bmp_pixmap/bmp_info_header.h	/^        Dword bi_compression;$/;"	m	class:BmpInfoHeader	access:private
+BmpInfoHeader::bi_height	bmp_pixmap/bmp_info_header.h	/^        Long bi_height;$/;"	m	class:BmpInfoHeader	access:private
+BmpInfoHeader::bi_planes	bmp_pixmap/bmp_info_header.h	/^        Word bi_planes;$/;"	m	class:BmpInfoHeader	access:private
+BmpInfoHeader::bi_size	bmp_pixmap/bmp_info_header.h	/^        Dword bi_size;$/;"	m	class:BmpInfoHeader	access:private
+BmpInfoHeader::bi_size_image	bmp_pixmap/bmp_info_header.h	/^        Dword bi_size_image;$/;"	m	class:BmpInfoHeader	access:private
+BmpInfoHeader::bi_width	bmp_pixmap/bmp_info_header.h	/^        Long bi_width;$/;"	m	class:BmpInfoHeader	access:private
+BmpInfoHeader::bi_x_pels_per_meter	bmp_pixmap/bmp_info_header.h	/^        Long bi_x_pels_per_meter;$/;"	m	class:BmpInfoHeader	access:private
+BmpInfoHeader::bi_y_pels_per_meter	bmp_pixmap/bmp_info_header.h	/^        Long bi_y_pels_per_meter;$/;"	m	class:BmpInfoHeader	access:private
+BmpInfoHeader::get_bi_height	bmp_pixmap/bmp_info_header.cpp	/^BmpInfoHeader::get_bi_height (void)$/;"	f	class:BmpInfoHeader	signature:(void)
+BmpInfoHeader::get_bi_height	bmp_pixmap/bmp_info_header.h	/^        Long get_bi_height (void);$/;"	p	class:BmpInfoHeader	access:public	signature:(void)
+BmpInfoHeader::get_bi_width	bmp_pixmap/bmp_info_header.cpp	/^BmpInfoHeader::get_bi_width (void)$/;"	f	class:BmpInfoHeader	signature:(void)
+BmpInfoHeader::get_bi_width	bmp_pixmap/bmp_info_header.h	/^        Long get_bi_width (void);$/;"	p	class:BmpInfoHeader	access:public	signature:(void)
+BmpInfoHeader::operator =	bmp_pixmap/bmp_info_header.cpp	/^BmpInfoHeader::operator = (const BmpInfoHeader &other)$/;"	f	class:BmpInfoHeader	signature:(const BmpInfoHeader &other)
+BmpInfoHeader::operator =	bmp_pixmap/bmp_info_header.h	/^        const BmpInfoHeader& operator = (const BmpInfoHeader &other); \/* assignment operator *\/$/;"	p	class:BmpInfoHeader	access:public	signature:(const BmpInfoHeader &other)
+BmpInfoHeader::output	bmp_pixmap/bmp_info_header.cpp	/^BmpInfoHeader::output (void) {$/;"	f	class:BmpInfoHeader	signature:(void)
+BmpInfoHeader::output	bmp_pixmap/bmp_info_header.h	/^        void output (void);$/;"	p	class:BmpInfoHeader	access:public	signature:(void)
+BmpInfoHeader::set_bi_height	bmp_pixmap/bmp_info_header.cpp	/^BmpInfoHeader::set_bi_height (Long value)$/;"	f	class:BmpInfoHeader	signature:(Long value)
+BmpInfoHeader::set_bi_height	bmp_pixmap/bmp_info_header.h	/^        void set_bi_height (Long value);$/;"	p	class:BmpInfoHeader	access:public	signature:(Long value)
+BmpInfoHeader::set_bi_width	bmp_pixmap/bmp_info_header.cpp	/^BmpInfoHeader::set_bi_width (Long value)$/;"	f	class:BmpInfoHeader	signature:(Long value)
+BmpInfoHeader::set_bi_width	bmp_pixmap/bmp_info_header.h	/^        void set_bi_width (Long value);$/;"	p	class:BmpInfoHeader	access:public	signature:(Long value)
+BmpInfoHeader::write	bmp_pixmap/bmp_info_header.cpp	/^BmpInfoHeader::write (ofstream &file)$/;"	f	class:BmpInfoHeader	signature:(ofstream &file)
+BmpInfoHeader::write	bmp_pixmap/bmp_info_header.h	/^        void write (ofstream &file);$/;"	p	class:BmpInfoHeader	access:public	signature:(ofstream &file)
+BmpInfoHeader::~BmpInfoHeader	bmp_pixmap/bmp_info_header.cpp	/^BmpInfoHeader::~BmpInfoHeader (void)$/;"	f	class:BmpInfoHeader	signature:(void)
+BmpInfoHeader::~BmpInfoHeader	bmp_pixmap/bmp_info_header.h	/^        ~BmpInfoHeader (void);                            \/* destructor       *\/$/;"	p	class:BmpInfoHeader	access:public	signature:(void)
+BmpPixel	bmp_pixmap/bmp_pixel.cpp	/^BmpPixel::BmpPixel (Byte b, Byte g, Byte r) : blue (b), green (g), red (r)$/;"	f	class:BmpPixel	signature:(Byte b, Byte g, Byte r)
+BmpPixel	bmp_pixmap/bmp_pixel.cpp	/^BmpPixel::BmpPixel (const BmpPixel &other)$/;"	f	class:BmpPixel	signature:(const BmpPixel &other)
+BmpPixel	bmp_pixmap/bmp_pixel.cpp	/^BmpPixel::BmpPixel (ifstream &file)$/;"	f	class:BmpPixel	signature:(ifstream &file)
+BmpPixel	bmp_pixmap/bmp_pixel.h	/^        BmpPixel (Byte b,Byte g,Byte r);                             \/* constructor      *\/$/;"	p	class:BmpPixel	access:public	signature:(Byte b,Byte g,Byte r)
+BmpPixel	bmp_pixmap/bmp_pixel.h	/^        BmpPixel (const BmpPixel &other);   \/* copy constructor *\/$/;"	p	class:BmpPixel	access:public	signature:(const BmpPixel &other)
+BmpPixel	bmp_pixmap/bmp_pixel.h	/^        BmpPixel (ifstream &file);                             \/* constructor      *\/$/;"	p	class:BmpPixel	access:public	signature:(ifstream &file)
+BmpPixel	bmp_pixmap/bmp_pixel.h	/^class BmpPixel$/;"	c
+BmpPixel::BmpPixel	bmp_pixmap/bmp_pixel.cpp	/^BmpPixel::BmpPixel (Byte b, Byte g, Byte r) : blue (b), green (g), red (r)$/;"	f	class:BmpPixel	signature:(Byte b, Byte g, Byte r)
+BmpPixel::BmpPixel	bmp_pixmap/bmp_pixel.cpp	/^BmpPixel::BmpPixel (const BmpPixel &other)$/;"	f	class:BmpPixel	signature:(const BmpPixel &other)
+BmpPixel::BmpPixel	bmp_pixmap/bmp_pixel.cpp	/^BmpPixel::BmpPixel (ifstream &file)$/;"	f	class:BmpPixel	signature:(ifstream &file)
+BmpPixel::BmpPixel	bmp_pixmap/bmp_pixel.h	/^        BmpPixel (Byte b,Byte g,Byte r);                             \/* constructor      *\/$/;"	p	class:BmpPixel	access:public	signature:(Byte b,Byte g,Byte r)
+BmpPixel::BmpPixel	bmp_pixmap/bmp_pixel.h	/^        BmpPixel (const BmpPixel &other);   \/* copy constructor *\/$/;"	p	class:BmpPixel	access:public	signature:(const BmpPixel &other)
+BmpPixel::BmpPixel	bmp_pixmap/bmp_pixel.h	/^        BmpPixel (ifstream &file);                             \/* constructor      *\/$/;"	p	class:BmpPixel	access:public	signature:(ifstream &file)
+BmpPixel::blue	bmp_pixmap/bmp_pixel.h	/^        Byte blue, green, red;$/;"	m	class:BmpPixel	access:private
+BmpPixel::get_blue	bmp_pixmap/bmp_pixel.cpp	/^BmpPixel::get_blue (void)$/;"	f	class:BmpPixel	signature:(void)
+BmpPixel::get_blue	bmp_pixmap/bmp_pixel.h	/^        Byte get_blue (void);$/;"	p	class:BmpPixel	access:public	signature:(void)
+BmpPixel::get_green	bmp_pixmap/bmp_pixel.cpp	/^BmpPixel::get_green (void)$/;"	f	class:BmpPixel	signature:(void)
+BmpPixel::get_green	bmp_pixmap/bmp_pixel.h	/^        Byte get_green (void);$/;"	p	class:BmpPixel	access:public	signature:(void)
+BmpPixel::get_red	bmp_pixmap/bmp_pixel.cpp	/^BmpPixel::get_red (void)$/;"	f	class:BmpPixel	signature:(void)
+BmpPixel::get_red	bmp_pixmap/bmp_pixel.h	/^        Byte get_red (void);$/;"	p	class:BmpPixel	access:public	signature:(void)
+BmpPixel::green	bmp_pixmap/bmp_pixel.h	/^        Byte blue, green, red;$/;"	m	class:BmpPixel	access:private
+BmpPixel::operator =	bmp_pixmap/bmp_pixel.cpp	/^BmpPixel::operator = (const BmpPixel &other)$/;"	f	class:BmpPixel	signature:(const BmpPixel &other)
+BmpPixel::operator =	bmp_pixmap/bmp_pixel.h	/^        const BmpPixel& operator = (const BmpPixel &other); \/* assignment operator *\/$/;"	p	class:BmpPixel	access:public	signature:(const BmpPixel &other)
+BmpPixel::output	bmp_pixmap/bmp_pixel.cpp	/^BmpPixel::output (void)$/;"	f	class:BmpPixel	signature:(void)
+BmpPixel::output	bmp_pixmap/bmp_pixel.h	/^        void output (void);$/;"	p	class:BmpPixel	access:public	signature:(void)
+BmpPixel::red	bmp_pixmap/bmp_pixel.h	/^        Byte blue, green, red;$/;"	m	class:BmpPixel	access:private
+BmpPixel::set	bmp_pixmap/bmp_pixel.cpp	/^BmpPixel::set (Byte b, Byte g, Byte r)$/;"	f	class:BmpPixel	signature:(Byte b, Byte g, Byte r)
+BmpPixel::set	bmp_pixmap/bmp_pixel.h	/^        void set (Byte b, Byte g, Byte r);$/;"	p	class:BmpPixel	access:public	signature:(Byte b, Byte g, Byte r)
+BmpPixel::set_blue	bmp_pixmap/bmp_pixel.cpp	/^BmpPixel::set_blue (Byte value)$/;"	f	class:BmpPixel	signature:(Byte value)
+BmpPixel::set_blue	bmp_pixmap/bmp_pixel.h	/^        void set_blue (Byte value);$/;"	p	class:BmpPixel	access:public	signature:(Byte value)
+BmpPixel::set_green	bmp_pixmap/bmp_pixel.cpp	/^BmpPixel::set_green (Byte value)$/;"	f	class:BmpPixel	signature:(Byte value)
+BmpPixel::set_green	bmp_pixmap/bmp_pixel.h	/^        void set_green (Byte value);$/;"	p	class:BmpPixel	access:public	signature:(Byte value)
+BmpPixel::set_red	bmp_pixmap/bmp_pixel.cpp	/^BmpPixel::set_red (Byte value)$/;"	f	class:BmpPixel	signature:(Byte value)
+BmpPixel::set_red	bmp_pixmap/bmp_pixel.h	/^        void set_red (Byte value);$/;"	p	class:BmpPixel	access:public	signature:(Byte value)
+BmpPixel::write	bmp_pixmap/bmp_pixel.cpp	/^BmpPixel::write (ofstream &file)$/;"	f	class:BmpPixel	signature:(ofstream &file)
+BmpPixel::write	bmp_pixmap/bmp_pixel.h	/^        void write (ofstream &file);$/;"	p	class:BmpPixel	access:public	signature:(ofstream &file)
+BmpPixel::~BmpPixel	bmp_pixmap/bmp_pixel.cpp	/^BmpPixel::~BmpPixel (void)$/;"	f	class:BmpPixel	signature:(void)
+BmpPixel::~BmpPixel	bmp_pixmap/bmp_pixel.h	/^        ~BmpPixel (void);                            \/* destructor       *\/$/;"	p	class:BmpPixel	access:public	signature:(void)
+BmpPixmap	bmp_pixmap/bmp_pixmap.cpp	/^BmpPixmap::BmpPixmap (const BmpPixmap &other)$/;"	f	class:BmpPixmap	signature:(const BmpPixmap &other)
+BmpPixmap	bmp_pixmap/bmp_pixmap.cpp	/^BmpPixmap::BmpPixmap (ifstream &file)$/;"	f	class:BmpPixmap	signature:(ifstream &file)
+BmpPixmap	bmp_pixmap/bmp_pixmap.h	/^        BmpPixmap (const BmpPixmap &other);   \/* copy constructor *\/$/;"	p	class:BmpPixmap	access:public	signature:(const BmpPixmap &other)
+BmpPixmap	bmp_pixmap/bmp_pixmap.h	/^        BmpPixmap (ifstream &file);                             \/* constructor      *\/$/;"	p	class:BmpPixmap	access:public	signature:(ifstream &file)
+BmpPixmap	bmp_pixmap/bmp_pixmap.h	/^class BmpPixmap$/;"	c
+BmpPixmap::BmpPixmap	bmp_pixmap/bmp_pixmap.cpp	/^BmpPixmap::BmpPixmap (const BmpPixmap &other)$/;"	f	class:BmpPixmap	signature:(const BmpPixmap &other)
+BmpPixmap::BmpPixmap	bmp_pixmap/bmp_pixmap.cpp	/^BmpPixmap::BmpPixmap (ifstream &file)$/;"	f	class:BmpPixmap	signature:(ifstream &file)
+BmpPixmap::BmpPixmap	bmp_pixmap/bmp_pixmap.h	/^        BmpPixmap (const BmpPixmap &other);   \/* copy constructor *\/$/;"	p	class:BmpPixmap	access:public	signature:(const BmpPixmap &other)
+BmpPixmap::BmpPixmap	bmp_pixmap/bmp_pixmap.h	/^        BmpPixmap (ifstream &file);                             \/* constructor      *\/$/;"	p	class:BmpPixmap	access:public	signature:(ifstream &file)
+BmpPixmap::cmp_Byte	bmp_pixmap/bmp_pixmap.cpp	/^BmpPixmap::cmp_Byte (const void *p1, const void *p2)$/;"	f	class:BmpPixmap	signature:(const void *p1, const void *p2)
+BmpPixmap::cmp_Byte	bmp_pixmap/bmp_pixmap.h	/^        static int cmp_Byte (const void *p1, const void *p2);$/;"	p	class:BmpPixmap	access:private	signature:(const void *p1, const void *p2)
+BmpPixmap::create_data	bmp_pixmap/bmp_pixmap.cpp	/^BmpPixmap::create_data (BmpPixel ***p)$/;"	f	class:BmpPixmap	signature:(BmpPixel ***p)
+BmpPixmap::create_data	bmp_pixmap/bmp_pixmap.cpp	/^BmpPixmap::create_data (ifstream &file)$/;"	f	class:BmpPixmap	signature:(ifstream &file)
+BmpPixmap::create_data	bmp_pixmap/bmp_pixmap.h	/^        void create_data (BmpPixel ***p);$/;"	p	class:BmpPixmap	access:private	signature:(BmpPixel ***p)
+BmpPixmap::create_data	bmp_pixmap/bmp_pixmap.h	/^        void create_data (ifstream &file);$/;"	p	class:BmpPixmap	access:private	signature:(ifstream &file)
+BmpPixmap::destroy	bmp_pixmap/bmp_pixmap.cpp	/^BmpPixmap::destroy (void)$/;"	f	class:BmpPixmap	signature:(void)
+BmpPixmap::destroy	bmp_pixmap/bmp_pixmap.h	/^        void destroy (void);$/;"	p	class:BmpPixmap	access:private	signature:(void)
+BmpPixmap::fheader	bmp_pixmap/bmp_pixmap.h	/^        BmpFileHeader *fheader;$/;"	m	class:BmpPixmap	access:private
+BmpPixmap::fill	bmp_pixmap/bmp_pixmap.h	/^        void fill (Byte b, Byte g, Byte r);$/;"	p	class:BmpPixmap	access:public	signature:(Byte b, Byte g, Byte r)
+BmpPixmap::fill	bmp_pixmap/bmp_pixmap.h	/^        void fill (const BmpPixel &pixel);$/;"	p	class:BmpPixmap	access:public	signature:(const BmpPixel &pixel)
+BmpPixmap::fill	bmp_pixmap/bmp_pixmap_fill.cpp	/^BmpPixmap::fill (Byte b, Byte g, Byte r)$/;"	f	class:BmpPixmap	signature:(Byte b, Byte g, Byte r)
+BmpPixmap::fill	bmp_pixmap/bmp_pixmap_fill.cpp	/^BmpPixmap::fill (const BmpPixel &pixel)$/;"	f	class:BmpPixmap	signature:(const BmpPixel &pixel)
+BmpPixmap::get_fheader	bmp_pixmap/bmp_pixmap.cpp	/^BmpPixmap::get_fheader (void)$/;"	f	class:BmpPixmap	signature:(void)
+BmpPixmap::get_fheader	bmp_pixmap/bmp_pixmap.h	/^        BmpFileHeader &get_fheader (void);$/;"	p	class:BmpPixmap	access:public	signature:(void)
+BmpPixmap::get_iheader	bmp_pixmap/bmp_pixmap.cpp	/^BmpPixmap::get_iheader (void)$/;"	f	class:BmpPixmap	signature:(void)
+BmpPixmap::get_iheader	bmp_pixmap/bmp_pixmap.h	/^        BmpInfoHeader &get_iheader (void);$/;"	p	class:BmpPixmap	access:public	signature:(void)
+BmpPixmap::height	bmp_pixmap/bmp_pixmap.h	/^        Long i, j, width, height;$/;"	m	class:BmpPixmap	access:private
+BmpPixmap::i	bmp_pixmap/bmp_pixmap.h	/^        Long i, j, width, height;$/;"	m	class:BmpPixmap	access:private
+BmpPixmap::iheader	bmp_pixmap/bmp_pixmap.h	/^        BmpInfoHeader *iheader;$/;"	m	class:BmpPixmap	access:private
+BmpPixmap::j	bmp_pixmap/bmp_pixmap.h	/^        Long i, j, width, height;$/;"	m	class:BmpPixmap	access:private
+BmpPixmap::median_filter	bmp_pixmap/bmp_pixmap.h	/^        void median_filter (unsigned n);$/;"	p	class:BmpPixmap	access:public	signature:(unsigned n)
+BmpPixmap::median_filter	bmp_pixmap/bmp_pixmap_filter_median.cpp	/^BmpPixmap::median_filter (unsigned n)$/;"	f	class:BmpPixmap	signature:(unsigned n)
+BmpPixmap::operator =	bmp_pixmap/bmp_pixmap.cpp	/^BmpPixmap::operator = (const BmpPixmap &other)$/;"	f	class:BmpPixmap	signature:(const BmpPixmap &other)
+BmpPixmap::operator =	bmp_pixmap/bmp_pixmap.h	/^        const BmpPixmap& operator = (const BmpPixmap &other); \/* assignment operator *\/$/;"	p	class:BmpPixmap	access:public	signature:(const BmpPixmap &other)
+BmpPixmap::output	bmp_pixmap/bmp_pixmap.cpp	/^BmpPixmap::output (void)$/;"	f	class:BmpPixmap	signature:(void)
+BmpPixmap::output	bmp_pixmap/bmp_pixmap.h	/^        void output (void);$/;"	p	class:BmpPixmap	access:public	signature:(void)
+BmpPixmap::pdata	bmp_pixmap/bmp_pixmap.h	/^        BmpPixel ***pdata;$/;"	m	class:BmpPixmap	access:private
+BmpPixmap::salt_pepper	bmp_pixmap/bmp_pixmap.h	/^        void salt_pepper (double salt, double pepper);$/;"	p	class:BmpPixmap	access:public	signature:(double salt, double pepper)
+BmpPixmap::salt_pepper	bmp_pixmap/bmp_pixmap_noise_salt_pepper.cpp	/^BmpPixmap::salt_pepper (double salt, double pepper)$/;"	f	class:BmpPixmap	signature:(double salt, double pepper)
+BmpPixmap::width	bmp_pixmap/bmp_pixmap.h	/^        Long i, j, width, height;$/;"	m	class:BmpPixmap	access:private
+BmpPixmap::write	bmp_pixmap/bmp_pixmap.cpp	/^BmpPixmap::write (ofstream &file)$/;"	f	class:BmpPixmap	signature:(ofstream &file)
+BmpPixmap::write	bmp_pixmap/bmp_pixmap.h	/^        void write (ofstream &file);$/;"	p	class:BmpPixmap	access:public	signature:(ofstream &file)
+BmpPixmap::~BmpPixmap	bmp_pixmap/bmp_pixmap.cpp	/^BmpPixmap::~BmpPixmap (void)$/;"	f	class:BmpPixmap	signature:(void)
+BmpPixmap::~BmpPixmap	bmp_pixmap/bmp_pixmap.h	/^        ~BmpPixmap (void);                            \/* destructor       *\/$/;"	p	class:BmpPixmap	access:public	signature:(void)
+Byte	bmp_pixmap/bmp_config.h	/^    typedef unsigned char Byte;$/;"	t
+DIP_PIXMAPS_DIR	config.h	5;"	d
+Dword	bmp_pixmap/bmp_config.h	/^    typedef unsigned int Dword;$/;"	t
+Dword	bmp_pixmap/bmp_config.h	/^    typedef unsigned long Dword;$/;"	t
+Long	bmp_pixmap/bmp_config.h	/^    typedef int Long;$/;"	t
+Long	bmp_pixmap/bmp_config.h	/^    typedef long Long;$/;"	t
+Word	bmp_pixmap/bmp_config.h	/^    typedef unsigned int Word;$/;"	t
+Word	bmp_pixmap/bmp_config.h	/^    typedef unsigned short Word;$/;"	t
+bf_off_bits	bmp_pixmap/bmp_file_header.h	/^        Dword bf_off_bits;$/;"	m	class:BmpFileHeader	access:private
+bf_reserved1	bmp_pixmap/bmp_file_header.h	/^        Word bf_reserved1;$/;"	m	class:BmpFileHeader	access:private
+bf_reserved2	bmp_pixmap/bmp_file_header.h	/^        Word bf_reserved2;$/;"	m	class:BmpFileHeader	access:private
+bf_size	bmp_pixmap/bmp_file_header.h	/^        Dword bf_size;$/;"	m	class:BmpFileHeader	access:private
+bf_type	bmp_pixmap/bmp_file_header.h	/^        Word bf_type;$/;"	m	class:BmpFileHeader	access:private
+bi_bit_count	bmp_pixmap/bmp_info_header.h	/^        Word bi_bit_count;$/;"	m	class:BmpInfoHeader	access:private
+bi_clr_important	bmp_pixmap/bmp_info_header.h	/^        Dword bi_clr_important;$/;"	m	class:BmpInfoHeader	access:private
+bi_clr_used	bmp_pixmap/bmp_info_header.h	/^        Dword bi_clr_used;$/;"	m	class:BmpInfoHeader	access:private
+bi_compression	bmp_pixmap/bmp_info_header.h	/^        Dword bi_compression;$/;"	m	class:BmpInfoHeader	access:private
+bi_height	bmp_pixmap/bmp_info_header.h	/^        Long bi_height;$/;"	m	class:BmpInfoHeader	access:private
+bi_planes	bmp_pixmap/bmp_info_header.h	/^        Word bi_planes;$/;"	m	class:BmpInfoHeader	access:private
+bi_size	bmp_pixmap/bmp_info_header.h	/^        Dword bi_size;$/;"	m	class:BmpInfoHeader	access:private
+bi_size_image	bmp_pixmap/bmp_info_header.h	/^        Dword bi_size_image;$/;"	m	class:BmpInfoHeader	access:private
+bi_width	bmp_pixmap/bmp_info_header.h	/^        Long bi_width;$/;"	m	class:BmpInfoHeader	access:private
+bi_x_pels_per_meter	bmp_pixmap/bmp_info_header.h	/^        Long bi_x_pels_per_meter;$/;"	m	class:BmpInfoHeader	access:private
+bi_y_pels_per_meter	bmp_pixmap/bmp_info_header.h	/^        Long bi_y_pels_per_meter;$/;"	m	class:BmpInfoHeader	access:private
+blue	bmp_pixmap/bmp_pixel.h	/^        Byte blue, green, red;$/;"	m	class:BmpPixel	access:private
+bmp_config_INC	bmp_pixmap/bmp_config.h	3;"	d
+bmp_file_header_INC	bmp_pixmap/bmp_file_header.h	20;"	d
+bmp_info_header_INC	bmp_pixmap/bmp_info_header.h	20;"	d
+bmp_pixel_INC	bmp_pixmap/bmp_pixel.h	20;"	d
+bmp_pixmap_INC	bmp_pixmap/bmp_pixmap.h	20;"	d
+cmp_Byte	bmp_pixmap/bmp_pixmap.cpp	/^BmpPixmap::cmp_Byte (const void *p1, const void *p2)$/;"	f	class:BmpPixmap	signature:(const void *p1, const void *p2)
+cmp_Byte	bmp_pixmap/bmp_pixmap.h	/^        static int cmp_Byte (const void *p1, const void *p2);$/;"	p	class:BmpPixmap	access:private	signature:(const void *p1, const void *p2)
 config_INC	config.h	3;"	d
-create_data	bmp_pixmap.cpp	/^BmpInfoHeader::create_data (BmpPixel **p)$/;"	f	class:BmpInfoHeader	signature:(BmpPixel **p)
-create_data	bmp_pixmap.cpp	/^BmpInfoHeader::create_data (ifstream &file)$/;"	f	class:BmpInfoHeader	signature:(ifstream &file)
-destroy	bmp_pixmap.cpp	/^BmpInfoHeader::destroy (void)$/;"	f	class:BmpInfoHeader	signature:(void)
-fheader	bmp_pixmap.h	/^        BmpFileHeader *fheader;$/;"	m	class:BmpPixmap	access:private
-get_bi_height	bmp_info_header.cpp	/^BmpInfoHeader::get_bi_height (void)$/;"	f	class:BmpInfoHeader	signature:(void)
-get_bi_height	bmp_info_header.h	/^        Long get_bi_height (void);$/;"	p	class:BmpInfoHeader	access:public	signature:(void)
-get_bi_width	bmp_info_header.cpp	/^BmpInfoHeader::get_bi_width (void)$/;"	f	class:BmpInfoHeader	signature:(void)
-get_bi_width	bmp_info_header.h	/^        Long get_bi_width (void);$/;"	p	class:BmpInfoHeader	access:public	signature:(void)
-get_fheader	bmp_pixmap.cpp	/^BmpPixmap::get_fheader (void)$/;"	f	class:BmpPixmap	signature:(void)
-get_fheader	bmp_pixmap.h	/^        BmpFileHeader &get_fheader (void);$/;"	p	class:BmpPixmap	access:public	signature:(void)
-get_iheader	bmp_pixmap.cpp	/^BmpPixmap::get_iheader (void)$/;"	f	class:BmpPixmap	signature:(void)
-get_iheader	bmp_pixmap.h	/^        BmpInfoHeader &get_iheader (void);$/;"	p	class:BmpPixmap	access:public	signature:(void)
-green	bmp_pixel.h	/^        Byte blue, green, red;$/;"	m	class:BmpPixel	access:private
-iheader	bmp_pixmap.h	/^        BmpInfoHeader *iheader;$/;"	m	class:BmpPixmap	access:private
+create_data	bmp_pixmap/bmp_pixmap.cpp	/^BmpPixmap::create_data (BmpPixel ***p)$/;"	f	class:BmpPixmap	signature:(BmpPixel ***p)
+create_data	bmp_pixmap/bmp_pixmap.cpp	/^BmpPixmap::create_data (ifstream &file)$/;"	f	class:BmpPixmap	signature:(ifstream &file)
+create_data	bmp_pixmap/bmp_pixmap.h	/^        void create_data (BmpPixel ***p);$/;"	p	class:BmpPixmap	access:private	signature:(BmpPixel ***p)
+create_data	bmp_pixmap/bmp_pixmap.h	/^        void create_data (ifstream &file);$/;"	p	class:BmpPixmap	access:private	signature:(ifstream &file)
+destroy	bmp_pixmap/bmp_pixmap.cpp	/^BmpPixmap::destroy (void)$/;"	f	class:BmpPixmap	signature:(void)
+destroy	bmp_pixmap/bmp_pixmap.h	/^        void destroy (void);$/;"	p	class:BmpPixmap	access:private	signature:(void)
+fheader	bmp_pixmap/bmp_pixmap.h	/^        BmpFileHeader *fheader;$/;"	m	class:BmpPixmap	access:private
+fill	bmp_pixmap/bmp_pixmap.h	/^        void fill (Byte b, Byte g, Byte r);$/;"	p	class:BmpPixmap	access:public	signature:(Byte b, Byte g, Byte r)
+fill	bmp_pixmap/bmp_pixmap.h	/^        void fill (const BmpPixel &pixel);$/;"	p	class:BmpPixmap	access:public	signature:(const BmpPixel &pixel)
+fill	bmp_pixmap/bmp_pixmap_fill.cpp	/^BmpPixmap::fill (Byte b, Byte g, Byte r)$/;"	f	class:BmpPixmap	signature:(Byte b, Byte g, Byte r)
+fill	bmp_pixmap/bmp_pixmap_fill.cpp	/^BmpPixmap::fill (const BmpPixel &pixel)$/;"	f	class:BmpPixmap	signature:(const BmpPixel &pixel)
+get_bi_height	bmp_pixmap/bmp_info_header.cpp	/^BmpInfoHeader::get_bi_height (void)$/;"	f	class:BmpInfoHeader	signature:(void)
+get_bi_height	bmp_pixmap/bmp_info_header.h	/^        Long get_bi_height (void);$/;"	p	class:BmpInfoHeader	access:public	signature:(void)
+get_bi_width	bmp_pixmap/bmp_info_header.cpp	/^BmpInfoHeader::get_bi_width (void)$/;"	f	class:BmpInfoHeader	signature:(void)
+get_bi_width	bmp_pixmap/bmp_info_header.h	/^        Long get_bi_width (void);$/;"	p	class:BmpInfoHeader	access:public	signature:(void)
+get_blue	bmp_pixmap/bmp_pixel.cpp	/^BmpPixel::get_blue (void)$/;"	f	class:BmpPixel	signature:(void)
+get_blue	bmp_pixmap/bmp_pixel.h	/^        Byte get_blue (void);$/;"	p	class:BmpPixel	access:public	signature:(void)
+get_fheader	bmp_pixmap/bmp_pixmap.cpp	/^BmpPixmap::get_fheader (void)$/;"	f	class:BmpPixmap	signature:(void)
+get_fheader	bmp_pixmap/bmp_pixmap.h	/^        BmpFileHeader &get_fheader (void);$/;"	p	class:BmpPixmap	access:public	signature:(void)
+get_green	bmp_pixmap/bmp_pixel.cpp	/^BmpPixel::get_green (void)$/;"	f	class:BmpPixel	signature:(void)
+get_green	bmp_pixmap/bmp_pixel.h	/^        Byte get_green (void);$/;"	p	class:BmpPixel	access:public	signature:(void)
+get_iheader	bmp_pixmap/bmp_pixmap.cpp	/^BmpPixmap::get_iheader (void)$/;"	f	class:BmpPixmap	signature:(void)
+get_iheader	bmp_pixmap/bmp_pixmap.h	/^        BmpInfoHeader &get_iheader (void);$/;"	p	class:BmpPixmap	access:public	signature:(void)
+get_red	bmp_pixmap/bmp_pixel.cpp	/^BmpPixel::get_red (void)$/;"	f	class:BmpPixel	signature:(void)
+get_red	bmp_pixmap/bmp_pixel.h	/^        Byte get_red (void);$/;"	p	class:BmpPixel	access:public	signature:(void)
+green	bmp_pixmap/bmp_pixel.h	/^        Byte blue, green, red;$/;"	m	class:BmpPixel	access:private
+height	bmp_pixmap/bmp_pixmap.h	/^        Long i, j, width, height;$/;"	m	class:BmpPixmap	access:private
+i	bmp_pixmap/bmp_pixmap.h	/^        Long i, j, width, height;$/;"	m	class:BmpPixmap	access:private
+iheader	bmp_pixmap/bmp_pixmap.h	/^        BmpInfoHeader *iheader;$/;"	m	class:BmpPixmap	access:private
+j	bmp_pixmap/bmp_pixmap.h	/^        Long i, j, width, height;$/;"	m	class:BmpPixmap	access:private
 main	main.cpp	/^main (int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
-operator =	bmp_file_header.cpp	/^BmpFileHeader::operator = (const BmpFileHeader &other)$/;"	f	class:BmpFileHeader	signature:(const BmpFileHeader &other)
-operator =	bmp_file_header.h	/^        const BmpFileHeader& operator = (const BmpFileHeader &other); \/* assignment operator *\/$/;"	p	class:BmpFileHeader	access:public	signature:(const BmpFileHeader &other)
-operator =	bmp_info_header.cpp	/^BmpInfoHeader::operator = (const BmpInfoHeader &other)$/;"	f	class:BmpInfoHeader	signature:(const BmpInfoHeader &other)
-operator =	bmp_info_header.h	/^        const BmpInfoHeader& operator = (const BmpInfoHeader &other); \/* assignment operator *\/$/;"	p	class:BmpInfoHeader	access:public	signature:(const BmpInfoHeader &other)
-operator =	bmp_pixel.cpp	/^BmpPixel::operator = (const BmpPixel &other)$/;"	f	class:BmpPixel	signature:(const BmpPixel &other)
-operator =	bmp_pixel.h	/^        const BmpPixel& operator = (const BmpPixel &other); \/* assignment operator *\/$/;"	p	class:BmpPixel	access:public	signature:(const BmpPixel &other)
-operator =	bmp_pixmap.cpp	/^BmpPixmap::operator = (const BmpPixmap &other)$/;"	f	class:BmpPixmap	signature:(const BmpPixmap &other)
-operator =	bmp_pixmap.h	/^        const BmpPixmap& operator = (const BmpPixmap &other); \/* assignment operator *\/$/;"	p	class:BmpPixmap	access:public	signature:(const BmpPixmap &other)
-output	bmp_file_header.cpp	/^BmpFileHeader::output (void) {$/;"	f	class:BmpFileHeader	signature:(void)
-output	bmp_file_header.h	/^        void output (void);$/;"	p	class:BmpFileHeader	access:public	signature:(void)
-output	bmp_info_header.cpp	/^BmpInfoHeader::output (void) {$/;"	f	class:BmpInfoHeader	signature:(void)
-output	bmp_info_header.h	/^        void output (void);$/;"	p	class:BmpInfoHeader	access:public	signature:(void)
-output	bmp_pixel.cpp	/^BmpPixel::output (void)$/;"	f	class:BmpPixel	signature:(void)
-output	bmp_pixel.h	/^        void output (void);$/;"	p	class:BmpPixel	access:public	signature:(void)
-pdata	bmp_pixmap.h	/^        BmpPixel **pdata;$/;"	m	class:BmpPixmap	access:private
-red	bmp_pixel.h	/^        Byte blue, green, red;$/;"	m	class:BmpPixel	access:private
-set_bi_height	bmp_info_header.cpp	/^BmpInfoHeader::set_bi_height (Long value)$/;"	f	class:BmpInfoHeader	signature:(Long value)
-set_bi_height	bmp_info_header.h	/^        void set_bi_height (Long value);$/;"	p	class:BmpInfoHeader	access:public	signature:(Long value)
-set_bi_width	bmp_info_header.cpp	/^BmpInfoHeader::set_bi_width (Long value)$/;"	f	class:BmpInfoHeader	signature:(Long value)
-set_bi_width	bmp_info_header.h	/^        void set_bi_width (Long value);$/;"	p	class:BmpInfoHeader	access:public	signature:(Long value)
-write	bmp_file_header.cpp	/^BmpFileHeader::write (ofstream &file)$/;"	f	class:BmpFileHeader	signature:(ofstream &file)
-write	bmp_file_header.h	/^        void write (ofstream &file);$/;"	p	class:BmpFileHeader	access:public	signature:(ofstream &file)
-write	bmp_info_header.cpp	/^BmpInfoHeader::write (ofstream &file)$/;"	f	class:BmpInfoHeader	signature:(ofstream &file)
-write	bmp_info_header.h	/^        void write (ofstream &file);$/;"	p	class:BmpInfoHeader	access:public	signature:(ofstream &file)
-write	bmp_pixel.cpp	/^BmpPixel::write (ofstream &file)$/;"	f	class:BmpPixel	signature:(ofstream &file)
-write	bmp_pixel.h	/^        void write (ofstream &file);$/;"	p	class:BmpPixel	access:public	signature:(ofstream &file)
-~BmpFileHeader	bmp_file_header.cpp	/^BmpFileHeader::~BmpFileHeader (void)$/;"	f	class:BmpFileHeader	signature:(void)
-~BmpFileHeader	bmp_file_header.h	/^        ~BmpFileHeader (void);                            \/* destructor       *\/$/;"	p	class:BmpFileHeader	access:public	signature:(void)
-~BmpInfoHeader	bmp_info_header.cpp	/^BmpInfoHeader::~BmpInfoHeader (void)$/;"	f	class:BmpInfoHeader	signature:(void)
-~BmpInfoHeader	bmp_info_header.h	/^        ~BmpInfoHeader (void);                            \/* destructor       *\/$/;"	p	class:BmpInfoHeader	access:public	signature:(void)
-~BmpPixel	bmp_pixel.cpp	/^BmpPixel::~BmpPixel (void)$/;"	f	class:BmpPixel	signature:(void)
-~BmpPixel	bmp_pixel.h	/^        ~BmpPixel (void);                            \/* destructor       *\/$/;"	p	class:BmpPixel	access:public	signature:(void)
-~BmpPixmap	bmp_pixmap.cpp	/^BmpPixmap::~BmpPixmap (void)$/;"	f	class:BmpPixmap	signature:(void)
-~BmpPixmap	bmp_pixmap.h	/^        ~BmpPixmap (void);                            \/* destructor       *\/$/;"	p	class:BmpPixmap	access:public	signature:(void)
+median_filter	bmp_pixmap/bmp_pixmap.h	/^        void median_filter (unsigned n);$/;"	p	class:BmpPixmap	access:public	signature:(unsigned n)
+median_filter	bmp_pixmap/bmp_pixmap_filter_median.cpp	/^BmpPixmap::median_filter (unsigned n)$/;"	f	class:BmpPixmap	signature:(unsigned n)
+operator =	bmp_pixmap/bmp_file_header.cpp	/^BmpFileHeader::operator = (const BmpFileHeader &other)$/;"	f	class:BmpFileHeader	signature:(const BmpFileHeader &other)
+operator =	bmp_pixmap/bmp_file_header.h	/^        const BmpFileHeader& operator = (const BmpFileHeader &other); \/* assignment operator *\/$/;"	p	class:BmpFileHeader	access:public	signature:(const BmpFileHeader &other)
+operator =	bmp_pixmap/bmp_info_header.cpp	/^BmpInfoHeader::operator = (const BmpInfoHeader &other)$/;"	f	class:BmpInfoHeader	signature:(const BmpInfoHeader &other)
+operator =	bmp_pixmap/bmp_info_header.h	/^        const BmpInfoHeader& operator = (const BmpInfoHeader &other); \/* assignment operator *\/$/;"	p	class:BmpInfoHeader	access:public	signature:(const BmpInfoHeader &other)
+operator =	bmp_pixmap/bmp_pixel.cpp	/^BmpPixel::operator = (const BmpPixel &other)$/;"	f	class:BmpPixel	signature:(const BmpPixel &other)
+operator =	bmp_pixmap/bmp_pixel.h	/^        const BmpPixel& operator = (const BmpPixel &other); \/* assignment operator *\/$/;"	p	class:BmpPixel	access:public	signature:(const BmpPixel &other)
+operator =	bmp_pixmap/bmp_pixmap.cpp	/^BmpPixmap::operator = (const BmpPixmap &other)$/;"	f	class:BmpPixmap	signature:(const BmpPixmap &other)
+operator =	bmp_pixmap/bmp_pixmap.h	/^        const BmpPixmap& operator = (const BmpPixmap &other); \/* assignment operator *\/$/;"	p	class:BmpPixmap	access:public	signature:(const BmpPixmap &other)
+output	bmp_pixmap/bmp_file_header.cpp	/^BmpFileHeader::output (void) {$/;"	f	class:BmpFileHeader	signature:(void)
+output	bmp_pixmap/bmp_file_header.h	/^        void output (void);$/;"	p	class:BmpFileHeader	access:public	signature:(void)
+output	bmp_pixmap/bmp_info_header.cpp	/^BmpInfoHeader::output (void) {$/;"	f	class:BmpInfoHeader	signature:(void)
+output	bmp_pixmap/bmp_info_header.h	/^        void output (void);$/;"	p	class:BmpInfoHeader	access:public	signature:(void)
+output	bmp_pixmap/bmp_pixel.cpp	/^BmpPixel::output (void)$/;"	f	class:BmpPixel	signature:(void)
+output	bmp_pixmap/bmp_pixel.h	/^        void output (void);$/;"	p	class:BmpPixel	access:public	signature:(void)
+output	bmp_pixmap/bmp_pixmap.cpp	/^BmpPixmap::output (void)$/;"	f	class:BmpPixmap	signature:(void)
+output	bmp_pixmap/bmp_pixmap.h	/^        void output (void);$/;"	p	class:BmpPixmap	access:public	signature:(void)
+pdata	bmp_pixmap/bmp_pixmap.h	/^        BmpPixel ***pdata;$/;"	m	class:BmpPixmap	access:private
+red	bmp_pixmap/bmp_pixel.h	/^        Byte blue, green, red;$/;"	m	class:BmpPixel	access:private
+salt_pepper	bmp_pixmap/bmp_pixmap.h	/^        void salt_pepper (double salt, double pepper);$/;"	p	class:BmpPixmap	access:public	signature:(double salt, double pepper)
+salt_pepper	bmp_pixmap/bmp_pixmap_noise_salt_pepper.cpp	/^BmpPixmap::salt_pepper (double salt, double pepper)$/;"	f	class:BmpPixmap	signature:(double salt, double pepper)
+set	bmp_pixmap/bmp_pixel.cpp	/^BmpPixel::set (Byte b, Byte g, Byte r)$/;"	f	class:BmpPixel	signature:(Byte b, Byte g, Byte r)
+set	bmp_pixmap/bmp_pixel.h	/^        void set (Byte b, Byte g, Byte r);$/;"	p	class:BmpPixel	access:public	signature:(Byte b, Byte g, Byte r)
+set_bi_height	bmp_pixmap/bmp_info_header.cpp	/^BmpInfoHeader::set_bi_height (Long value)$/;"	f	class:BmpInfoHeader	signature:(Long value)
+set_bi_height	bmp_pixmap/bmp_info_header.h	/^        void set_bi_height (Long value);$/;"	p	class:BmpInfoHeader	access:public	signature:(Long value)
+set_bi_width	bmp_pixmap/bmp_info_header.cpp	/^BmpInfoHeader::set_bi_width (Long value)$/;"	f	class:BmpInfoHeader	signature:(Long value)
+set_bi_width	bmp_pixmap/bmp_info_header.h	/^        void set_bi_width (Long value);$/;"	p	class:BmpInfoHeader	access:public	signature:(Long value)
+set_blue	bmp_pixmap/bmp_pixel.cpp	/^BmpPixel::set_blue (Byte value)$/;"	f	class:BmpPixel	signature:(Byte value)
+set_blue	bmp_pixmap/bmp_pixel.h	/^        void set_blue (Byte value);$/;"	p	class:BmpPixel	access:public	signature:(Byte value)
+set_green	bmp_pixmap/bmp_pixel.cpp	/^BmpPixel::set_green (Byte value)$/;"	f	class:BmpPixel	signature:(Byte value)
+set_green	bmp_pixmap/bmp_pixel.h	/^        void set_green (Byte value);$/;"	p	class:BmpPixel	access:public	signature:(Byte value)
+set_red	bmp_pixmap/bmp_pixel.cpp	/^BmpPixel::set_red (Byte value)$/;"	f	class:BmpPixel	signature:(Byte value)
+set_red	bmp_pixmap/bmp_pixel.h	/^        void set_red (Byte value);$/;"	p	class:BmpPixel	access:public	signature:(Byte value)
+width	bmp_pixmap/bmp_pixmap.h	/^        Long i, j, width, height;$/;"	m	class:BmpPixmap	access:private
+write	bmp_pixmap/bmp_file_header.cpp	/^BmpFileHeader::write (ofstream &file)$/;"	f	class:BmpFileHeader	signature:(ofstream &file)
+write	bmp_pixmap/bmp_file_header.h	/^        void write (ofstream &file);$/;"	p	class:BmpFileHeader	access:public	signature:(ofstream &file)
+write	bmp_pixmap/bmp_info_header.cpp	/^BmpInfoHeader::write (ofstream &file)$/;"	f	class:BmpInfoHeader	signature:(ofstream &file)
+write	bmp_pixmap/bmp_info_header.h	/^        void write (ofstream &file);$/;"	p	class:BmpInfoHeader	access:public	signature:(ofstream &file)
+write	bmp_pixmap/bmp_pixel.cpp	/^BmpPixel::write (ofstream &file)$/;"	f	class:BmpPixel	signature:(ofstream &file)
+write	bmp_pixmap/bmp_pixel.h	/^        void write (ofstream &file);$/;"	p	class:BmpPixel	access:public	signature:(ofstream &file)
+write	bmp_pixmap/bmp_pixmap.cpp	/^BmpPixmap::write (ofstream &file)$/;"	f	class:BmpPixmap	signature:(ofstream &file)
+write	bmp_pixmap/bmp_pixmap.h	/^        void write (ofstream &file);$/;"	p	class:BmpPixmap	access:public	signature:(ofstream &file)
+~BmpFileHeader	bmp_pixmap/bmp_file_header.cpp	/^BmpFileHeader::~BmpFileHeader (void)$/;"	f	class:BmpFileHeader	signature:(void)
+~BmpFileHeader	bmp_pixmap/bmp_file_header.h	/^        ~BmpFileHeader (void);                            \/* destructor       *\/$/;"	p	class:BmpFileHeader	access:public	signature:(void)
+~BmpInfoHeader	bmp_pixmap/bmp_info_header.cpp	/^BmpInfoHeader::~BmpInfoHeader (void)$/;"	f	class:BmpInfoHeader	signature:(void)
+~BmpInfoHeader	bmp_pixmap/bmp_info_header.h	/^        ~BmpInfoHeader (void);                            \/* destructor       *\/$/;"	p	class:BmpInfoHeader	access:public	signature:(void)
+~BmpPixel	bmp_pixmap/bmp_pixel.cpp	/^BmpPixel::~BmpPixel (void)$/;"	f	class:BmpPixel	signature:(void)
+~BmpPixel	bmp_pixmap/bmp_pixel.h	/^        ~BmpPixel (void);                            \/* destructor       *\/$/;"	p	class:BmpPixel	access:public	signature:(void)
+~BmpPixmap	bmp_pixmap/bmp_pixmap.cpp	/^BmpPixmap::~BmpPixmap (void)$/;"	f	class:BmpPixmap	signature:(void)
+~BmpPixmap	bmp_pixmap/bmp_pixmap.h	/^        ~BmpPixmap (void);                            \/* destructor       *\/$/;"	p	class:BmpPixmap	access:public	signature:(void)

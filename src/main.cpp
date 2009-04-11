@@ -39,13 +39,22 @@ main (int argc, char *argv[])
     
     pixmap->output ();
 //    pixmap->fill (100, 160, 180);
-    pixmap->salt_pepper (.05, .05);
+
+    BmpPixmap *pixmap_sp = &pixmap->salt_pepper (.005, .01);
 
     ofile.open (DIP_PIXMAPS_DIR "output.bmp", ios::out | ios::binary);
-    pixmap->write (ofile);
+    pixmap_sp->write (ofile);
+    ofile.close ();
+
+    BmpPixmap *pixmap_mf = &pixmap_sp->median_filter (3);
+
+    ofile.open (DIP_PIXMAPS_DIR "output2.bmp", ios::out | ios::binary);
+    pixmap_mf->write (ofile);
     ofile.close ();
 
     delete pixmap;
+    delete pixmap_sp;
+    delete pixmap_mf;
 
 	return 0;
 }		// ----------  end of function main  ---------- 

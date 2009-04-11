@@ -148,6 +148,19 @@ BmpPixmap::destroy (void)
 /*
  *--------------------------------------------------------------------------------------
  *       Class:  BmpPixmap
+ *      Method:  cmp_Byte
+ * Description:  Comparing method for qsort.
+ *--------------------------------------------------------------------------------------
+ */
+    int
+BmpPixmap::cmp_Byte (const void *p1, const void *p2)
+{
+    return (* (Byte *) p1 - * (Byte *) p2);
+}		/* -----  end of method BmpPixmap::cmp_Byte  ----- */
+
+/*
+ *--------------------------------------------------------------------------------------
+ *       Class:  BmpPixmap
  *      Method:  output
  * Description:  Output the data members.
  *--------------------------------------------------------------------------------------

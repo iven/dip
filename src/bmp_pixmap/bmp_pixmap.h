@@ -20,6 +20,7 @@
 #define  bmp_pixmap_INC
 
 #include	<fstream>
+#include	<cassert>
 #include	"bmp_config.h"
 #include	"bmp_file_header.h"
 #include	"bmp_info_header.h"
@@ -49,9 +50,10 @@ class BmpPixmap
         void write (ofstream &file);
 
         /* ====================  MUTATORS      ======================================= */
-        void fill (const BmpPixel &pixel);
-        void fill (Byte b, Byte g, Byte r);
-        void salt_pepper (double salt, double pepper);
+        BmpPixmap &fill (const BmpPixel &pixel);
+        BmpPixmap &fill (Byte b, Byte g, Byte r);
+        BmpPixmap &salt_pepper (double salt, double pepper);
+        BmpPixmap &median_filter (int n);
 
         /* ====================  OPERATORS     ======================================= */
         const BmpPixmap& operator = (const BmpPixmap &other); /* assignment operator */
@@ -62,11 +64,12 @@ class BmpPixmap
         void create_data (ifstream &file);
         void create_data (BmpPixel ***p);
         void destroy (void);
+        static int cmp_Byte (const void *p1, const void *p2);
         /* ====================  DATA MEMBERS  ======================================= */
         BmpFileHeader *fheader;
         BmpInfoHeader *iheader;
         BmpPixel ***pdata;
-        Long i, j, width, height;
+        int i, j, width, height;
 
 }; /* -----  end of class BmpPixmap  ----- */
 

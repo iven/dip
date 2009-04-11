@@ -27,10 +27,11 @@
  * Description:  Add salt and pepper noise to the pixmap.
  *--------------------------------------------------------------------------------------
  */
-    void
+    BmpPixmap &
 BmpPixmap::salt_pepper (double salt, double pepper)
 {
-    double temp;
+    BmpPixmap *temp = new BmpPixmap (*this);
+    double rand_temp;
     /*-----------------------------------------------------------------------------
      *  Salt & Pepper should be between 0 and 1.
      *-----------------------------------------------------------------------------*/
@@ -45,14 +46,14 @@ BmpPixmap::salt_pepper (double salt, double pepper)
      *-----------------------------------------------------------------------------*/
     for (i = 0; i < height; i++) {
         for (j = 0; j < width; j++) {
-            temp = double (rand ()) / RAND_MAX;
-            if (temp > 1 - salt) {
-                pdata [i][j]->set (255, 255, 255);
-            } else if (temp < pepper) {
-                pdata [i][j]->set (0, 0, 0);
+            rand_temp = double (rand ()) / RAND_MAX;
+            if (rand_temp > 1 - salt) {
+                temp->pdata [i][j]->set (255, 255, 255);
+            } else if (rand_temp < pepper) {
+                temp->pdata [i][j]->set (0, 0, 0);
             }
         }
     }
-    return ;
+    return *temp;
 }		/* -----  end of method BmpPixmap::salt_pepper  ----- */
 

@@ -25,25 +25,27 @@
  * Description:  Fill the whole bmp with one color.
  *--------------------------------------------------------------------------------------
  */
-    void
+    BmpPixmap &
 BmpPixmap::fill (const BmpPixel &pixel)
 {
+    BmpPixmap *temp = new BmpPixmap (*this);
     for (i = 0; i < height; i++) {
         for (j = 0; j < width; j++) {
-            *pdata [i][j] = pixel;
+            *temp->pdata [i][j] = pixel;
         }
     }
-    return ;
+    return *temp;
 }		/* -----  end of method BmpPixmap::fill  ----- */
 
-    void
+    BmpPixmap &
 BmpPixmap::fill (Byte b, Byte g, Byte r)
 {
+    BmpPixmap *temp = new BmpPixmap (*this);
     for (i = 0; i < height; i++) {
         for (j = 0; j < width; j++) {
-            pdata [i][j]->set (b, g, r);
+            temp->pdata [i][j]->set (b, g, r);
         }
     }
-    return ;
+    return *temp;
 }		/* -----  end of method BmpPixmap::fill  ----- */
 
