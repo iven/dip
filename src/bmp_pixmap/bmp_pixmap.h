@@ -1,9 +1,26 @@
+/*
+ * =====================================================================================
+ *
+ *       Filename:  bmp_pixmap.h
+ *
+ *    Description:  BmpPixmap Class.
+ *
+ *        Version:  1.0
+ *        Created:  2009年04月11日 16时49分31秒
+ *       Revision:  none
+ *       Compiler:  gcc
+ *
+ *         Author:  Xu Lijian (ivenvd), ivenvd@gmail.com
+ *        Company:  CUGB, China
+ *
+ * =====================================================================================
+ */
 
 #ifndef  bmp_pixmap_INC
 #define  bmp_pixmap_INC
 
 #include	<fstream>
-#include	"config.h"
+#include	"bmp_config.h"
 #include	"bmp_file_header.h"
 #include	"bmp_info_header.h"
 #include	"bmp_pixel.h"
@@ -26,12 +43,13 @@ class BmpPixmap
         ~BmpPixmap (void);                            /* destructor       */
 
         /* ====================  ACCESSORS     ======================================= */
-        void output (void);
-        void write (ofstream &file);
         BmpFileHeader &get_fheader (void);
         BmpInfoHeader &get_iheader (void);
+        void output (void);
+        void write (ofstream &file);
 
         /* ====================  MUTATORS      ======================================= */
+        void fill (const BmpPixel &pixel);
 
         /* ====================  OPERATORS     ======================================= */
         const BmpPixmap& operator = (const BmpPixmap &other); /* assignment operator */

@@ -1,9 +1,26 @@
+/*
+ * =====================================================================================
+ *
+ *       Filename:  bmp_info_header.h
+ *
+ *    Description:  BmpInfoHeader Class.
+ *
+ *        Version:  1.0
+ *        Created:  2009年04月11日 16时49分31秒
+ *       Revision:  none
+ *       Compiler:  gcc
+ *
+ *         Author:  Xu Lijian (ivenvd), ivenvd@gmail.com
+ *        Company:  CUGB, China
+ *
+ * =====================================================================================
+ */
 
 #ifndef  bmp_info_header_INC
 #define  bmp_info_header_INC
 
 #include	<fstream>
-#include	"config.h"
+#include	"bmp_config.h"
 
 using namespace std;
 
@@ -23,14 +40,14 @@ class BmpInfoHeader
         ~BmpInfoHeader (void);                            /* destructor       */
 
         /* ====================  ACCESSORS     ======================================= */
-        void output (void);
-        void write (ofstream &file);
         Long get_bi_width (void);
         Long get_bi_height (void);
-        void set_bi_width (Long value);
-        void set_bi_height (Long value);
+        void output (void);
+        void write (ofstream &file);
 
         /* ====================  MUTATORS      ======================================= */
+        void set_bi_width (Long value);
+        void set_bi_height (Long value);
 
         /* ====================  OPERATORS     ======================================= */
         const BmpInfoHeader& operator = (const BmpInfoHeader &other); /* assignment operator */

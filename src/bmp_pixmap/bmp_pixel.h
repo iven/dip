@@ -1,9 +1,26 @@
+/*
+ * =====================================================================================
+ *
+ *       Filename:  bmp_pixel.h
+ *
+ *    Description:  BmpPixel Class.
+ *
+ *        Version:  1.0
+ *        Created:  2009年04月11日 16时49分31秒
+ *       Revision:  none
+ *       Compiler:  gcc
+ *
+ *         Author:  Xu Lijian (ivenvd), ivenvd@gmail.com
+ *        Company:  CUGB, China
+ *
+ * =====================================================================================
+ */
 
 #ifndef  bmp_pixel_INC
 #define  bmp_pixel_INC
 
 #include	<fstream>
-#include	"config.h"
+#include	"bmp_config.h"
 
 using namespace std;
 /*
@@ -23,17 +40,17 @@ class BmpPixel
         ~BmpPixel (void);                            /* destructor       */
 
         /* ====================  ACCESSORS     ======================================= */
-        void output (void);
-        void write (ofstream &file);
         Byte get_blue (void);
         Byte get_green (void);
         Byte get_red (void);
+        void output (void);
+        void write (ofstream &file);
+
+        /* ====================  MUTATORS      ======================================= */
         void set_blue (Byte value);
         void set_green (Byte value);
         void set_red (Byte value);
         void set (Byte b, Byte g, Byte r);
-
-        /* ====================  MUTATORS      ======================================= */
 
         /* ====================  OPERATORS     ======================================= */
         const BmpPixel& operator = (const BmpPixel &other); /* assignment operator */

@@ -1,5 +1,8 @@
 ADD_DEFINITIONS ("-g -Wall")
 
-SET (SRC_LIST main bmp_info_header bmp_file_header bmp_pixel bmp_pixmap)
+ADD_SUBDIRECTORY (bmp_pixmap)
+LINK_DIRECTORIES (bmp_pixmap)
 
+SET (SRC_LIST main)
 ADD_EXECUTABLE (main ${SRC_LIST})
+TARGET_LINK_LIBRARIES (main bmp_pixmap)

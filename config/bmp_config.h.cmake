@@ -1,6 +1,6 @@
 
-#ifndef  config_INC
-#define  config_INC
+#ifndef  bmp_config_INC
+#define  bmp_config_INC
 
 #ifdef  BUILD_FOR_WIN
     typedef unsigned char Byte;
@@ -14,6 +14,4 @@
     typedef int Long;
 #endif     /* -----  not BUILD_FOR_WIN  ----- */
 
-#define DIP_PIXMAPS_DIR "${CMAKE_SOURCE_DIR}/pixmaps/"
-
-#endif   /* ----- #ifndef config_INC  ----- */
+#endif   /* ----- #ifndef bmp_config_INC  ----- */
