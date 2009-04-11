@@ -50,6 +50,8 @@ class BmpPixmap
 
         /* ====================  MUTATORS      ======================================= */
         void fill (const BmpPixel &pixel);
+        void fill (Byte b, Byte g, Byte r);
+        void salt_pepper (double salt, double pepper);
 
         /* ====================  OPERATORS     ======================================= */
         const BmpPixmap& operator = (const BmpPixmap &other); /* assignment operator */

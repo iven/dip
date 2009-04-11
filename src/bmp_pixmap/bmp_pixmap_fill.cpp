@@ -36,3 +36,14 @@ BmpPixmap::fill (const BmpPixel &pixel)
     return ;
 }		/* -----  end of method BmpPixmap::fill  ----- */
 
+    void
+BmpPixmap::fill (Byte b, Byte g, Byte r)
+{
+    for (i = 0; i < height; i++) {
+        for (j = 0; j < width; j++) {
+            pdata [i][j]->set (b, g, r);
+        }
+    }
+    return ;
+}		/* -----  end of method BmpPixmap::fill  ----- */
+

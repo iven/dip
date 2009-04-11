@@ -32,14 +32,14 @@ main (int argc, char *argv[])
     ifstream ifile;
     ofstream ofile;
     BmpPixmap *pixmap;
-    BmpPixel pixel (200, 160, 180);
 
-    ifile.open (DIP_PIXMAPS_DIR "original.bmp", ios::in | ios::binary);
+    ifile.open (DIP_PIXMAPS_DIR "lena.bmp", ios::in | ios::binary);
     pixmap = new BmpPixmap (ifile);
     ifile.close ();
     
     pixmap->output ();
-    pixmap->fill (pixel);
+//    pixmap->fill (100, 160, 180);
+    pixmap->salt_pepper (.05, .05);
 
     ofile.open (DIP_PIXMAPS_DIR "output.bmp", ios::out | ios::binary);
     pixmap->write (ofile);
