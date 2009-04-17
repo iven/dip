@@ -38,23 +38,33 @@ main (int argc, char *argv[])
     ifile.close ();
     
     pixmap->output ();
-//    pixmap->fill (100, 160, 180);
+/*     pixmap->fill (100, 160, 180);
+ */
 
-    BmpPixmap *pixmap_sp = &pixmap->salt_pepper (.005, .01);
+/*     BmpPixmap *pixmap_sp = &pixmap->salt_pepper (.05, .01);
+ * 
+ *     ofile.open (DIP_PIXMAPS_DIR "output.bmp", ios::out | ios::binary);
+ *     pixmap_sp->write (ofile);
+ *     ofile.close ();
+ * 
+ *     BmpPixmap *pixmap_mf = &pixmap_sp->median_filter (3);
+ * 
+ *     ofile.open (DIP_PIXMAPS_DIR "output2.bmp", ios::out | ios::binary);
+ *     pixmap_mf->write (ofile);
+ *     ofile.close ();
+ * 
+ *     delete pixmap_sp;
+ *     delete pixmap_mf;
+ */
 
+    BmpPixmap *pixmap_gauss = &pixmap->gauss (100);
+    
     ofile.open (DIP_PIXMAPS_DIR "output.bmp", ios::out | ios::binary);
-    pixmap_sp->write (ofile);
+    pixmap_gauss->write (ofile);
     ofile.close ();
 
-    BmpPixmap *pixmap_mf = &pixmap_sp->median_filter (3);
-
-    ofile.open (DIP_PIXMAPS_DIR "output2.bmp", ios::out | ios::binary);
-    pixmap_mf->write (ofile);
-    ofile.close ();
-
+    delete pixmap_gauss;
     delete pixmap;
-    delete pixmap_sp;
-    delete pixmap_mf;
 
 	return 0;
 }		// ----------  end of function main  ---------- 

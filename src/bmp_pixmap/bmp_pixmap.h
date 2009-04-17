@@ -53,6 +53,7 @@ class BmpPixmap
         BmpPixmap &fill (const BmpPixel &pixel);
         BmpPixmap &fill (Byte b, Byte g, Byte r);
         BmpPixmap &salt_pepper (double salt, double pepper);
+        BmpPixmap &gauss (int level);
         BmpPixmap &median_filter (int n);
 
         /* ====================  OPERATORS     ======================================= */

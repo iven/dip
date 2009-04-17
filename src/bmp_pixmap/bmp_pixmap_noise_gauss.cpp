@@ -1,12 +1,12 @@
 /*
  * =====================================================================================
  *
- *       Filename:  bmp_pixmap_noise_salt_pepper.cpp
+ *       Filename:  bmp_pixmap_noise_gauss.cpp
  *
- *    Description:  Add salt and pepper noise to the pixmap.
+ *    Description:  Add gauss noise to the pixmap.
  *
  *        Version:  1.0
- *        Created:  2009年04月11日 19时09分39秒
+ *        Created:  2009年04月17日 23时38分04秒
  *       Revision:  none
  *       Compiler:  gcc
  *
@@ -23,17 +23,17 @@
 /*
  *--------------------------------------------------------------------------------------
  *       Class:  BmpPixmap
- *      Method:  salt_pepper
- * Description:  Add salt and pepper noise to the pixmap.
+ *      Method:  gauss
+ * Description:  Add gauss noise to the pixmap.
  *--------------------------------------------------------------------------------------
  */
     BmpPixmap &
-BmpPixmap::salt_pepper (double salt, double pepper)
+BmpPixmap::gauss (int level)
 {
-    assert (salt >= 0 && salt <= 1 && pepper >=0 && pepper <= 1);
+    assert (level >= 0);
 
     BmpPixmap *temp = new BmpPixmap (*this);
-    double rand_temp;
+    int k, rand_temp, pixel [3];
     /*-----------------------------------------------------------------------------
      *  Init the random seed with time.
      *-----------------------------------------------------------------------------*/
@@ -43,14 +43,20 @@ BmpPixmap::salt_pepper (double salt, double pepper)
      *-----------------------------------------------------------------------------*/
     for (i = 0; i < height; i++) {
         for (j = 0; j < width; j++) {
-            rand_temp = double (rand ()) / RAND_MAX;
-            if (rand_temp > 1 - salt) {
-                temp->pdata [i][j]->set (255, 255, 255);
-            } else if (rand_temp < pepper) {
-                temp->pdata [i][j]->set (0, 0, 0);
+            rand_temp = rand () % level - level / 2;
+            pixel [0] = temp->pdata [i][j]->get_blue () + rand_temp;
+            pixel [1] = temp->pdata [i][j]->get_green () + rand_temp;
+            pixel [2] = temp->pdata [i][j]->get_red () + rand_temp;
+            for (k = 0; k < 3; k++) {
+                if (pixel [k] < 0) {
+                    pixel [k] = 0;
+                } else if (pixel [k] > 255) {
+                    pixel [k] = 255;
+                }
             }
+            temp->pdata [i][j]->set (pixel [0], pixel [1], pixel [2]);
         }
     }
     return *temp;
-}		/* -----  end of method BmpPixmap::salt_pepper  ----- */
+}		/* -----  end of method BmpPixmap::gauss  ----- */
 

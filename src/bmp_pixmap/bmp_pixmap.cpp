@@ -89,6 +89,8 @@ BmpPixmap::create_data (ifstream &file)
 {
     width = iheader->get_bi_width ();
     height = iheader->get_bi_height ();
+    width = width > 0 ? width : -width;
+    height = height > 0 ? height : -height;
     pdata = new BmpPixel ** [height];
     for (i = 0; i < height; i++) {
         pdata [i] = new BmpPixel * [width];
@@ -111,6 +113,8 @@ BmpPixmap::create_data (BmpPixel ***p)
 {
     width = iheader->get_bi_width ();
     height = iheader->get_bi_height ();
+    width = width > 0 ? width : -width;
+    height = height > 0 ? height : -height;
     pdata = new BmpPixel ** [height];
     for (i = 0; i < height; i++) {
         pdata [i] = new BmpPixel * [width];
